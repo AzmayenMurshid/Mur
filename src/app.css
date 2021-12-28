@@ -20,6 +20,5 @@
 body {
     background: var(--bg-secondary);
     color: white;
-    overflow-y: hidden;
     overflow-x: hidden;
 }

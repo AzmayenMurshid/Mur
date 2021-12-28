@@ -155,14 +155,19 @@
     .navBar {
         overflow: hidden;
         transform: translateX(80%);
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-right: 50px;
     }
 
     .navBar a {
         text-decoration: none;
         color: white;
-        margin-right: 10px;
+        margin-right: 20px;
 
+    }
+
+    .navBar a:hover {
+        color: #05d9e8;
     }
 
     @media (max-width: 450px) {}
@@ -187,9 +192,9 @@
     </svg>
     <div>
         <nav class="navBar">
-            <a href="/about-me">About Me</a>
-            <a href="/">Experience</a>
-            <a href="/">Projects</a>
+            <a href="/info#About-me">about me</a>
+            <a href="/info#Experiences">experience</a>
+            <a href="/">projects</a>
         </nav>
     </div>
     <div id="Parent-Wrapper">
@@ -212,7 +217,7 @@
 
     <div class="contact-Me">
         <div>
-            <a href="mailto:azmayen.murshid@gmail.com">Contact Me</a>
+            <a href="mailto: azmayen.murshid@gmail.com">Contact Me</a>
         </div>
     </div>
 
