@@ -26,7 +26,7 @@
     }
 
     body {
-        background: var(--bg-secondary);
+        background:#01012b;
         align-items: center;
         justify-content: center;
         min-height: 100vh;
@@ -96,7 +96,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background: var(--bg-secondary);
+        background: #01012b;
         border-left: 3px solid var(--bg-secondary);
         animation: typing 1.5s steps(10) infinite;
     }
@@ -120,7 +120,7 @@
         transform: translateY(400%);
         font-size: 200%;
         color: var(--secondary-heading);
-        opacity: 0.5;
+        opacity: 0.7;
     }
 
     .intro p {
@@ -187,7 +187,7 @@
     </svg>
     <div>
         <nav class="navBar">
-            <a href="src/routes/About-Me.svelte">About Me</a>
+            <a href="/about-me">About Me</a>
             <a href="/">Experience</a>
             <a href="/">Projects</a>
         </nav>
