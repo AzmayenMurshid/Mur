@@ -225,7 +225,7 @@
             <a href="/">home</a>
             <a href="#About-Me">about me</a>
             <a href="#Experiences">experience</a>
-            <a href="/">projects</a>
+            <a href="#Projects">projects</a>
         </nav>
     </div>
     <div class="about-me">
