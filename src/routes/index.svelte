@@ -190,7 +190,7 @@
         }
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 400px) {
     .navBar {
         transform: translateX(150px);
     }
@@ -293,8 +293,6 @@
     }
 
     }
-
-    @media (orientation: portrait) {}
 
     @media (orientation: landscape) {}
 </style>
