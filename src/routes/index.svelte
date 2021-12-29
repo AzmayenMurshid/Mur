@@ -170,7 +170,129 @@
         color: #05d9e8;
     }
 
-    @media (max-width: 450px) {}
+    @media (max-width: 1000px) {
+        .navBar {
+            transform:translateX(620px);
+        }
+        .intro p{
+            width: 110%;
+            margin-left: 65px;
+        }
+        .wrapper .static-txt {
+            transform: translateX(-140px);
+        }
+        .wrapper .dynamic-txts{
+            transform: translateX(-130px)
+        }
+        .contact-Me{
+            width: 150%;
+            transform: translateX(320px)
+        }
+    }
+
+    @media (max-width: 500px) {
+    .navBar {
+        transform: translateX(150px);
+    }
+    .navBar a{
+        font-size: 15px;
+    }
+    .wrapper {
+        display: inline-flex;
+        align-items: center;
+        transform: translateX(90%);
+        margin-top: 10%;
+        position: absolute;
+    }
+
+    .wrapper .static-txt {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+    .wrapper .dynamic-txts {
+        margin-left: 10px;
+        height: 30px;
+        line-height: 30px;
+        overflow: hidden;
+    }
+
+    .dynamic-txts li {
+        color: #6B9FED;
+        list-style: none;
+        font-size: 30px;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        animation: slide 6s steps(4) infinite;
+    }
+
+    @keyframes slide {
+        100% {
+            top: -360px;
+        }
+    }
+
+    .dynamic-txts li span {
+        position: relative;
+    }
+
+    .dynamic-txts li span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #01012b;
+        border-left: 3px solid var(--bg-secondary);
+        animation: typing 1.5s steps(10) infinite;
+    }
+
+    @keyframes typing {
+        100% {
+            border-left-color: #A1A7C8;
+            left: 100%;
+            margin: 0 -35px 0 35px;
+        }
+    }
+    .intro h2 {
+        width: 150%;
+        transform:translateX(-35px);
+        margin-top: 130px;
+        font-size: 25px;
+
+    }
+    .intro p {
+        width: 150%;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-left: -70px;
+        border: 3px solid white;
+        padding: 20px;
+        transform: translateX(0);
+    }
+    .contact-Me {
+        transform: translateY(-250px);
+        margin: 50px;
+    }
+    .contact-Me div {
+        width: 50%;
+        padding-left: 15%;
+        border: 3px solid cyan;
+        border-radius: 30px;
+
+    }
+    .contact-Me div:hover{
+        opacity: 2;
+        border: 3px solid white;
+
+    }
+    .contact-Me div a {
+        text-align: center;
+    }
+
+    }
 
     @media (orientation: portrait) {}
 
