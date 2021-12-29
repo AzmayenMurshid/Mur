@@ -378,13 +378,27 @@
 
     }
 
-    @media (max-width: 0px) {
+    @media (max-width: 1200px){
+        body{
+            overflow-y: scroll;
+        }
+        #blobSvg {
+            transform: translateY(-25px);
+            margin-left: 20px;
+        }
         .navBar {
-            transform:translateX(620px);
+            transform:translateX(800px);
+        }
+        .intro h2 {
+            transform: translateX(25px);
+            margin-top: 170px;
         }
         .intro p{
-            width: 110%;
-            margin-left: 65px;
+            width: 100%;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            transform: translateY(0px);
         }
         .wrapper .static-txt {
             transform: translateX(-140px);
@@ -394,7 +408,11 @@
         }
         .contact-Me{
             width: 150%;
-            transform: translateX(320px)
+            transform: translateY(-230px);
+            margin-left: 28%;
+        }
+        #svgWaves {
+            transform: translateY(-200px);
         }
     }
 
