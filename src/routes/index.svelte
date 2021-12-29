@@ -190,7 +190,7 @@
         }
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 576px) {
     .navBar {
         transform: translateX(150px);
     }
