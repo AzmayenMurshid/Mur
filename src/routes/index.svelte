@@ -194,7 +194,7 @@
         <nav class="navBar">
             <a href="/info#About-me">about me</a>
             <a href="/info#Experiences">experience</a>
-            <a href="/">projects</a>
+            <a href="/info#Projects">projects</a>
         </nav>
     </div>
     <div id="Parent-Wrapper">

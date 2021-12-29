@@ -138,7 +138,7 @@
     #Experiences .heading {
         float: left;
         margin-bottom: 5%;
-        margin-left: 15%;
+        margin-left: 25%;
     }
     #ex-info table {
         clear: both;
@@ -177,6 +177,45 @@
         font-weight: bold;
         width: 1em;
         margin-left: -1em;
+    }
+    #Projects {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #Projects .heading h2 {
+        transform:translateX(-30%);
+    }
+    .project-Container {
+        display: inline-flex;
+        float: left;
+        width: 25%;
+        height: 50%;
+        margin-left: 2%;
+        margin-bottom: 10%;
+        background: #151542;
+        border-radius: 20px;
+        padding: 20px;
+
+    }
+    .project-Container:hover{
+        opacity: 2;
+        transform: translateY(-40px)
+    }
+    .project-Container h4 {
+        text-align: left;
+        opacity: 0.85;
+    }
+    .project-Container a {
+        text-decoration: none;
+        color: #d1f7ff;
+    }
+    .project-Container p{
+        margin-top: 50px;
+        text-align: left;
+
+    }
+    .project-Container h5 {
+        margin-top: 50px;
     }
 </style>
 
@@ -272,6 +311,65 @@
                     </td>
                 </tr>
             </table>
+        </div>
+    </div>
+    <div id= "Projects">
+        <div class= 'heading'>
+            <h2 style = "margin-bottom: 10%">/ projects</h2>
+        </div>
+        <div class = "project-Container" style="margin-left: 10%">
+            <span>
+                <h4>Motion sensor Volume Control</h4>
+                <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
+                <p>Change your volume with hand gestures and hovering your hand. Done with external modules such as cv2, mediapipe, math, and many more</p>
+                <h5>Python</h5>
+                </a>
+            </span>
+        </div>
+        <div class="project-Container">
+            <span>
+            <h4>Todo List</h4>
+            <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
+            <p>An User friendly app to contain your checklists, todos, and reminders. Consisting of database to store data.</p>
+            <h5>Svelte, Javascript, TypeScript, HTML, CSS, Prisma, Postgres</h5>
+            </a>
+            </span>
+        </div>
+        <div class="project-Container">
+            <span>
+            <h4>Muricle Game</h4>
+            <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
+            <p>A pixelated Retro game inspired from Mario. Contains 3 levels and player has to fight enemies and go thorugh obstacles to win!</p>
+            <h5>Python</h5>
+            </a>
+            </span>
+        </div>
+        <div class="project-Container" style = "clear: both; margin-left: 10%">
+            <span>
+            <h4>Maze Game</h4>
+            <a href = "https://github.com/AzmayenMurshid/MazeGame">
+            <p>Retro pixalated game inpired from pacman. Objective is to get to the vortext before the terminators get you! External turtle, math, random and time libraries</p>
+            <h5>Python</h5>
+            </a>
+            </span>
+        </div>
+        <div class="project-Container">
+            <span>
+            <h4>Personal Website</h4>
+            <a href = "https://github.com/AzmayenMurshid/Personal-Website">
+            <p>The code to this very website. Done with Svelte framework. consisting of Javascript, HTML and CSS and deployed through vercel.</p>
+            <h5>Svelte, Javascript, HTML, CSS</h5>
+            </a>
+            </span>
+        </div>
+        <div class="project-Container">
+            <span>
+            <h4>Ping pong</h4>
+            <a href = "https://github.com/AzmayenMurshid/Ping-Pong">
+            <p>Retro Arcade 2 player ping pong game created with Turtle and time library. player 1 key bindings are "w" and "s", player 2 key bindings are "up", "down".</p>
+            <h5>Python</h5>
+            </a>
+            </span>
         </div>
     </div>
 </body>
