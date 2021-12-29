@@ -143,31 +143,40 @@
     #ex-info table {
         clear: both;
         margin-bottom: 10%;
-        transform:translateX(10%);
+        transform:translateX(-2%);
     }
     .titles {
-        width: 35%;
+        width: 20%;
         background-color: var(--bg-secondary);
         border: none;
-        transform: translateX(100px);
+        transform: translateX(90px);
         color: #d1f7ff;
-        text-align: left;
-        border: 2px solid white;
+        font-size: 100%;
+        text-align: right;
         padding: 20px;
     }
     .titles:hover{
         border-right: 2px solid rgb(22, 139, 128);
     }
     .descriptions{
-        width: 60%;
+        width: 80%;
         display: block;
         margin-left: 300px;
         padding: 20px;
         border: 2px solid white;
+        transform: translateX(-17%);
     }
     .descriptions:hover{
         border-left: 2px solid rgb(22, 139, 128);
 
+    }
+    .ex-info .descriptions ul li::before{
+        content: "\2022";
+        color: #05d9e8;
+        display: inline-block;
+        font-weight: bold;
+        width: 1em;
+        margin-left: -1em;
     }
 </style>
 
@@ -229,15 +238,38 @@
             <table>
                 <tr>
                     <td class = "titles">ICS2O</td>
-                    <td class = "descriptions">Enter Text here</td>
+                    <td class = "descriptions" style='text-align: justify'>ICS2O is a Canadian grade 10 Computer science course that teaches:
+                        <ul style="padding-left: 7%; padding-top: 2%; padding-bottom: 2%;">
+                            <li> Fundamental of Computer Science</li>
+                            <li>Python</li>
+                            <li>HTML & CSS</li>
+                        </ul>
+                         At <a href="https://sis.sunway.edu.my/frontpage" style="color: cyan; text-decoration: none;" target="_blank">Sunway International School</a> I worked with hands on projects with fundamental syntax.
+                          In addition, our teacher gave me the apportunity to assist him to tutor the students struggling. through out the semester we worked on various projects which enabled me to understand algorithms, syntax, error handling and debugging more in depth.
+                        we had to create a personal website which summarized our whole course. i was able to code a retro arcade game to go above and beyond.</td>
                 </tr>
                 <tr>
                     <td class = "titles">Summer Projects</td>
-                    <td class = "descriptions">Enter Text here</td>
+                    <td class = "descriptions" style="text-align: justify">Through out the summer I worked on multiple personal projects. Some of them include:
+                        <ul style="padding-left: 7%; padding-top: 2%; padding-bottom: 2%;">
+                            <li>Motion Sensor Voice Control</li>
+                            <li>Andoid app development</li>
+                            <li>game development</li>
+                            <li>full stack web development</li>
+                        </ul>
+                          and many more. Couple of codes are released on 
+                        <a href="https://github.com/AzmayenMurshid" style="color: cyan; text-decoration:none" target="_blank">Github</a> I also had an opportunity to learn about Android app development through <a href="https://developer.android.com/studio" style="color: cyan; text-decoration:none" target="_blank">Android studio</a>, Java, SQL and MySQL. Cross platform app development through <a href="https://flutter.dev/" style="color: cyan; text-decoration:none" target="_blank">Flutter</a>.
+                            Game development was one of the most challenging field as I worked with  <a href="https://www.unrealengine.com/en-US/?sessionInvalidated=true" style="color: cyan; text-decoration:none" target="_blank">Unreal Engine</a> and I am still learning about it to this day. As for full stack development, I have worked with <a href="https://kit.svelte.dev/" style="color: cyan; text-decoration:none" target="_blank">SvelteKit</a> framework. Alongside Sveltekit I had to work with HTML, CSS, Javascript, TypeScript and Postgres.</td>
                 </tr>
                 <tr>
                     <td class = "titles">Bootcamp</td>
-                    <td class = "descriptions">Enter Text here</td>
+                    <td class = "descriptions">Everything I have learned so far were through online courses which even prepared me for school. Everything I learned from basic python syntax to full stack web development, were through:
+                        <ul style="padding-left: 7%; padding-top: 2%; padding-bottom: 2%;">
+                            <li><a href="https://www.freecodecamp.org/" style="color: cyan; text-decoration:none" target="_blank">FreeCodeCamp</a></li>
+                            <li><a href="https://www.w3schools.com/" style="color: cyan; text-decoration:none" target="_blank">Code Academy</a></li>
+                            <li><a href="https://www.codecademy.com/" style="color: cyan; text-decoration:none" target="_blank">W3schools</a></li>
+                        </ul>
+                    </td>
                 </tr>
             </table>
         </div>
