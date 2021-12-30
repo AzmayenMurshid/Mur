@@ -8,7 +8,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
     body {
-        overflow: scroll;
+        overflow-y: scroll;
     }
 
     #About-Me {
@@ -218,7 +218,7 @@
     }
     @media (min-width: 100px) and (orientation: portrait){
         body{
-            overflow: scroll;
+            overflow-y: scroll;
         }
         .navBar {
         transform: translateX(40px);
