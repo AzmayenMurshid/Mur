@@ -170,45 +170,10 @@
         color: #05d9e8;
     }
 
-    /*@media (max-width: 1200px){
-        body{
-            overflow-y: scroll;
-        }
-        #blobSvg {
-            transform: translateY(-25px);
-            margin-left: 20px;
-        }
-        .navBar {
-            transform:translateX(800px);
-        }
-        .intro h2 {
-            transform: translateX(25px);
-            margin-top: 170px;
-        }
-        .intro p{
-            width: 100%;
-            margin-left: 10px;
-            margin-bottom: 20px;
-            padding: 20px;
-            transform: translateY(0px);
-        }
-        .wrapper .static-txt {
-            transform: translateX(-140px);
-        }
-        .wrapper .dynamic-txts{
-            transform: translateX(-130px)
-        }
-        .contact-Me{
-            width: 150%;
-            transform: translateY(-230px);
-            margin-left: 28%;
-        }
-        #svgWaves {
-            transform: translateY(-200px);
-        }
-    } */
-
     @media (min-width: 100px) and (orientation: portrait) {
+        body {
+            overflow: hidden;
+        }
         #blobSvg {
             margin-left: -100px;
         }
@@ -311,9 +276,9 @@
 
     }
 
-    @media(min-width: 1000px) {
+    @media(min-width: 1000px){
         body{
-            overflow-y: scroll;
+            overflow-y: hidden;
         }
         #blobSvg {
             transform: translateY(-25px);
@@ -349,7 +314,21 @@
         }
     }
 
-    @media (orientation: landscape) {}
+    @media (min-width: 1500px) and (orientation: landscape) {
+        body {
+            overflow: hidden;
+        }
+        .navBar{
+            transform: translateX(1100px);
+        }
+        .wrapper {
+            transform: translateX(450px);
+        }
+        .contact-Me div {
+            margin-left: -10px;
+            width: 10%;
+        }
+    }
 </style>
 
 <body>
