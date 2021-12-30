@@ -7,6 +7,10 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+    body {
+        overflow-y: scroll;
+    }
+
     #About-Me {
         margin-bottom: 10%;
     }
@@ -213,14 +217,17 @@
         margin-top: 50px;
     }
     @media (min-width: 100px) and (orientation: portrait){
+        body{
+            overflow-y: auto;
+        }
         .navBar {
-        transform: translateX(25px);
+        transform: translateX(40px);
         }
         nav{
             width: 150%;
         }
         .navBar a{
-            font-size: 13px;
+            font-size: 8px;
             padding-left: 5px;
         }
         span img {
@@ -248,6 +255,7 @@
             padding: 20px;
             transform: translateX(60px);
             margin-top: 20px;
+            animation: none;
         }
         .about-me-Content h3 {
             font-size: 20px;
@@ -288,10 +296,15 @@
             width: 80%;
             margin: 20px;
             margin-left: 40px;
+            animation: none;
         }
     }
 
     @media (min-width: 1000px) and (orientation: landscape) {
+        body{
+            background: var(--bg-secondary);
+            opacity: 1;
+        }
         .navBar {
             transform: translateX(450px)
         }
@@ -322,6 +335,10 @@
         }
     }
     @media (min-width: 1500px) and (orientation: landscape) {
+        body{
+            background: var(--bg-secondary);
+            opacity: 1;
+        }
         .navBar {
             transform: translateX(1100px);
         }
