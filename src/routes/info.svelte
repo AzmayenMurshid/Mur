@@ -137,7 +137,7 @@
     #Experiences .heading {
         float: left;
         margin-bottom: 5%;
-        margin-left: 25%;
+        margin-left: 20%;
     }
     #ex-info table {
         clear: both;
