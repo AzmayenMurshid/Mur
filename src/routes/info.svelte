@@ -7,11 +7,6 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
-    body{
-        background: #01012b;
-        margin: 0%;
-        max-height: 100vh;
-    }
     #About-Me {
         margin-bottom: 10%;
     }
@@ -63,7 +58,6 @@
     }
     .about-me-Content {
         display: block;
-        overflow: hidden;
         margin-right: 10%;
         margin-left: -10%;
     }
@@ -216,6 +210,84 @@
     }
     .project-Container h5 {
         margin-top: 50px;
+    }
+    @media (min-width: 100px) {
+        .navBar {
+        transform: translateX(20px);
+        }
+        nav{
+            width: 150%;
+        }
+        .navBar a{
+            font-size: 15px;
+            padding-left: 5px;
+        }
+        span img {
+            transform: translateX(-2000px);
+        }
+
+        .about-me .heading {
+            transform: translateX(90px);
+        }
+        .about-me .heading h2 {
+            margin-top: 100px;
+            margin-bottom: -100px;
+        }
+
+        .about-me-Content {
+            overflow: none;
+        }
+
+        .about-me-Content p {
+            clear: both;
+            float: none;
+            overflow: scroll;
+            width: 90%;
+            border: 3px solid white;
+            padding: 20px;
+            transform: translateX(60px);
+            margin-top: 20px;
+        }
+        .about-me-Content h3 {
+            font-size: 20px;
+            width: 150%;
+            transform: translateX(80px)
+        }
+
+        .about-me-Content ul {
+            margin-right: 20px;
+        }
+
+        .about-me-Content #BackEnd {
+            margin-left: 60px;
+        }
+
+        #Experiences .heading h2 {
+            margin-top: 100px;
+            width: 150%;
+            transform: translateX(-190px);
+            margin-bottom: 20px;
+        }
+
+        #Experiences .titles {
+            transform: translateX(-1000px);
+        }
+        #Experiences .descriptions {
+            width: 80%;
+            transform: translateX(-400px);
+        }
+
+        #Projects .heading h2 {
+            transform: translateX(-125px)
+        }
+
+        .project-Container {
+            display: block;
+            float: none;
+            width: 80%;
+            margin: 20px;
+            margin-left: 40px;
+        }
     }
 </style>
 

@@ -170,12 +170,54 @@
         color: #05d9e8;
     }
 
-    @media (max-width: 420px) and (max-height: 736px) {
+    /*@media (max-width: 1200px){
+        body{
+            overflow-y: scroll;
+        }
+        #blobSvg {
+            transform: translateY(-25px);
+            margin-left: 20px;
+        }
         .navBar {
-        transform: translateX(100px);
+            transform:translateX(800px);
+        }
+        .intro h2 {
+            transform: translateX(25px);
+            margin-top: 170px;
+        }
+        .intro p{
+            width: 100%;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            transform: translateY(0px);
+        }
+        .wrapper .static-txt {
+            transform: translateX(-140px);
+        }
+        .wrapper .dynamic-txts{
+            transform: translateX(-130px)
+        }
+        .contact-Me{
+            width: 150%;
+            transform: translateY(-230px);
+            margin-left: 28%;
+        }
+        #svgWaves {
+            transform: translateY(-200px);
+        }
+    } */
+
+    @media (min-width: 100px) {
+        #blobSvg {
+            margin-left: -100px;
+        }
+        .navBar {
+        transform: translateX(40px);
     }
     .navBar a{
         font-size: 15px;
+        padding-left: 10px;
     }
     #blobSvg {
         transform: translateY(15px);
@@ -233,8 +275,8 @@
         }
     }
     .intro h2 {
-        width: 150%;
-        transform:translateX(-50px);
+        width: 200%;
+        transform:translateX(-60px);
         margin-top: 130px;
         font-size: 25px;
     }
@@ -242,7 +284,7 @@
         width: 150%;
         font-size: 15px;
         margin-top: 50px;
-        margin-left: -50px;
+        margin-left: -60px;
         border: 3px solid white;
         padding: 20px;
         transform: translateX(0);
@@ -256,6 +298,8 @@
         padding-left: 20%;
         border: 3px solid cyan;
         border-radius: 30px;
+        margin-left: -10px;
+        margin-top: -20px;
     }
     .contact-Me div:hover{
         opacity: 2;
@@ -265,10 +309,9 @@
         text-align: center;
     }
 
-
     }
 
-    @media (max-width: 0px){
+    @media(min-width: 1000px) {
         body{
             overflow-y: scroll;
         }
