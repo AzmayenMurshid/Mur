@@ -217,8 +217,11 @@
         margin-top: 50px;
     }
     @media (min-width: 100px) and (orientation: portrait){
+
+        * {
+            animation: none;
+        }
         body{
-            width: justify;
             overflow-y: scroll;
         }
         .navBar {
