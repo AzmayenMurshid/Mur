@@ -208,7 +208,7 @@
         }
     } */
 
-    @media (min-width: 100px) {
+    @media (min-width: 100px) and (orientation: portrait) {
         #blobSvg {
             margin-left: -100px;
         }
