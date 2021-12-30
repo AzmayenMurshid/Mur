@@ -214,13 +214,13 @@
     }
     @media (min-width: 100px) and (orientation: portrait){
         .navBar {
-        transform: translateX(25px);
+        transform: translateX(70px);
         }
         nav{
             width: 150%;
         }
         .navBar a{
-            font-size: 13px;
+            font-size: 7px;
             padding-left: 5px;
         }
         span img {
