@@ -244,7 +244,7 @@
         }
 
         .about-me-Content {
-            overflow: none;
+            animation: none;
         }
 
         .about-me-Content p {
