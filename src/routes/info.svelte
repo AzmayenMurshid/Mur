@@ -7,6 +7,10 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+    body {
+        overflow: scroll;
+    }
+
     #About-Me {
         margin-bottom: 10%;
     }
@@ -213,6 +217,9 @@
         margin-top: 50px;
     }
     @media (min-width: 100px) and (orientation: portrait){
+        body{
+            overflow: scroll;
+        }
         .navBar {
         transform: translateX(40px);
         }
