@@ -261,7 +261,7 @@
         .about-me-Content h3 {
             font-size: 20px;
             width: 150%;
-            transform: translateX(80px)
+            transform: translateX(70px)
         }
 
         .about-me-Content ul {
