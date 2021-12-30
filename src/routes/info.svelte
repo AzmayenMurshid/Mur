@@ -218,7 +218,6 @@
     }
     @media (min-width: 100px) and (orientation: portrait){
         body{
-            width: 100%;
             overflow: scroll;
         }
         .navBar {
