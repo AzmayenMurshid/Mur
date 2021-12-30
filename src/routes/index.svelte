@@ -172,7 +172,7 @@
 
     @media (min-width: 100px) and (orientation: portrait) {
         body {
-            overflow-y: hidden;
+            overflow-y: auto;
             opacity: 1;
         }
         #blobSvg {
@@ -188,6 +188,9 @@
         }
         #blobSvg {
             transform: translateY(15px);
+        }
+        #svgWaves{
+            transform: translate(-2000px);
         }
         .wrapper {
             display: inline-flex;

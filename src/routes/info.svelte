@@ -137,7 +137,7 @@
     #Experiences .heading {
         float: left;
         margin-bottom: 5%;
-        margin-left: 25%;
+        margin-left: 20%;
     }
     #ex-info table {
         clear: both;
@@ -183,6 +183,7 @@
     }
     #Projects .heading h2 {
         transform:translateX(-30%);
+        margin-left: -20px;
     }
     .project-Container {
         display: inline-flex;
@@ -221,7 +222,7 @@
             overflow-y: auto;
         }
         .navBar {
-        transform: translateX(40px);
+        transform: translateX(30px);
         }
         nav{
             width: 150%;
@@ -243,7 +244,7 @@
         }
 
         .about-me-Content {
-            overflow: none;
+            animation: none;
         }
 
         .about-me-Content p {
@@ -260,7 +261,7 @@
         .about-me-Content h3 {
             font-size: 20px;
             width: 150%;
-            transform: translateX(80px)
+            transform: translateX(70px)
         }
 
         .about-me-Content ul {
@@ -284,6 +285,7 @@
         #Experiences .descriptions {
             width: 80%;
             transform: translateX(-400px);
+            font-size: 15px;
         }
 
         #Projects .heading h2 {
@@ -296,7 +298,9 @@
             width: 80%;
             margin: 20px;
             margin-left: 40px;
-            animation: none;
+        }
+        .project-Container:hover{
+            transform: none;
         }
     }
 
