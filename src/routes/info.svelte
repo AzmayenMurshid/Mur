@@ -298,7 +298,9 @@
             width: 80%;
             margin: 20px;
             margin-left: 40px;
-            animation: none;
+        }
+        .project-Container:hover{
+            transform: none;
         }
     }
 
