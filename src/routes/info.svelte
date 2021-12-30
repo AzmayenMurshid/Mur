@@ -7,6 +7,10 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+    * {
+        background: #01012b;
+    }
+
     body{
         background:#01012b;
         align-items: center;
