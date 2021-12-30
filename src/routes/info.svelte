@@ -217,11 +217,8 @@
         margin-top: 50px;
     }
     @media (min-width: 100px) and (orientation: portrait){
-
-        * {
-            animation: none;
-        }
         body{
+        
             overflow-y: scroll;
         }
         .navBar {
@@ -259,6 +256,7 @@
             padding: 20px;
             transform: translateX(60px);
             margin-top: 20px;
+            animation: none;
         }
         .about-me-Content h3 {
             font-size: 20px;
@@ -299,6 +297,7 @@
             width: 80%;
             margin: 20px;
             margin-left: 40px;
+            animation: none;
         }
     }
 
