@@ -23,6 +23,7 @@
         padding: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
+        background: #01012b;
     }
 
     body {
@@ -179,7 +180,8 @@
             margin-left: -100px;
         }
         .navBar {
-        transform: translateX(30px);
+        transform: translateX(20px);
+        margin-left: -10px;
         }
         .navBar a{
             font-size: 15px;
