@@ -172,7 +172,7 @@
 
     @media (min-width: 100px) and (orientation: portrait) {
         body {
-            overflow-y: hidden;
+            overflow-y: auto;
             opacity: 1;
         }
         #blobSvg {
