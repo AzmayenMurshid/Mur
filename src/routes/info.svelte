@@ -218,7 +218,8 @@
     }
     @media (min-width: 100px) and (orientation: portrait){
         body{
-            overflow: scroll;
+            width: justify;
+            overflow-y: scroll;
         }
         .navBar {
         transform: translateX(40px);
