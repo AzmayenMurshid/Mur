@@ -220,7 +220,7 @@
             width: 150%;
         }
         .navBar a{
-            font-size: 13px;
+            font-size: 10px;
             padding-left: 5px;
         }
         span img {
