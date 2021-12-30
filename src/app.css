@@ -19,6 +19,7 @@
 
 body {
     background: var(--bg-secondary);
+    opacity: 1;
     color: white;
     overflow-x: hidden;
 }

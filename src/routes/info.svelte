@@ -213,6 +213,11 @@
         margin-top: 50px;
     }
     @media (min-width: 100px) and (orientation: portrait){
+        body{
+            background: var(--bg-secondary);
+            opacity: 1;
+
+        }
         .navBar {
         transform: translateX(40px);
         }
@@ -220,7 +225,7 @@
             width: 150%;
         }
         .navBar a{
-            font-size: 7px;
+            font-size: 8px;
             padding-left: 5px;
         }
         span img {
@@ -292,6 +297,9 @@
     }
 
     @media (min-width: 1000px) and (orientation: landscape) {
+        body{
+            opacity: 1;
+        }
         .navBar {
             transform: translateX(450px)
         }
@@ -322,6 +330,9 @@
         }
     }
     @media (min-width: 1500px) and (orientation: landscape) {
+        body{
+            opacity: 1;
+        }
         .navBar {
             transform: translateX(1100px);
         }

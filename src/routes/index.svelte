@@ -172,7 +172,9 @@
 
     @media (min-width: 100px) and (orientation: portrait) {
         body {
-            overflow: hidden;
+            overflow-y: hidden;
+            opacity: 1;
+
         }
         #blobSvg {
             margin-left: -100px;
@@ -279,6 +281,8 @@
     @media(min-width: 1000px){
         body{
             overflow-y: hidden;
+            opacity: 1;
+
         }
         #blobSvg {
             transform: translateY(-25px);
@@ -317,6 +321,8 @@
     @media (min-width: 1500px) and (orientation: landscape) {
         body {
             overflow: hidden;
+            opacity: 1;
+
         }
         .navBar{
             transform: translateX(1100px);
