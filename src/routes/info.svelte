@@ -222,7 +222,7 @@
             overflow-y: auto;
         }
         .navBar {
-        transform: translateX(40px);
+        transform: translateX(30px);
         }
         nav{
             width: 150%;
