@@ -285,6 +285,7 @@
         #Experiences .descriptions {
             width: 80%;
             transform: translateX(-400px);
+            font-size: 10px;
         }
 
         #Projects .heading h2 {
