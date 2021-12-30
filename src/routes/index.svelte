@@ -179,7 +179,7 @@
             margin-left: -100px;
         }
         .navBar {
-        transform: translateX(20px);
+        transform: translateX(50px);
         margin-left: -10px;
         }
         .navBar a{

@@ -7,15 +7,6 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
-    body{
-        background:#01012b;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        margin-top: 0%;
-
-    }
-
     #About-Me {
         margin-bottom: 10%;
     }
@@ -222,10 +213,6 @@
         margin-top: 50px;
     }
     @media (min-width: 100px) and (orientation: portrait){
-        body{
-            background: var(--bg-secondary);
-            opacity: 1;
-        }
         .navBar {
         transform: translateX(40px);
         }
