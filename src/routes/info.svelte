@@ -312,13 +312,40 @@
             transform: translateX(60px);
         }
         .titles:hover {
-            border-left: 3px solid cyan;
+            border-right: 3px solid cyan;
         }
         .descriptions {
             transform: translateX(-150px);
         }
         .project-Container h5 {
             margin-top: 50px;
+        }
+    }
+    @media (min-width: 1500px) and (orientation: landscape) {
+        .navBar {
+            transform: translateX(1100px);
+        }
+        .about-me-Content h3, .about-me-Content #BackEnd{
+            margin-left: 50%;
+        }
+        .about-me-Content h3{
+            transform: translateY(-150px);
+        }
+        .about-me-Content #BackEnd {
+            transform: translateY(-150px)
+        }
+        .about-me-Content #FrontEnd {
+            transform: translateY(-150px)
+        }
+        .about-me-Content #Databases {
+            transform: translateY(-150px)
+
+        }
+        #Experiences {
+            margin-top: -10%;
+        }
+        .titles:hover {
+            border-right: 3px solid cyan;
         }
     }
 </style>
