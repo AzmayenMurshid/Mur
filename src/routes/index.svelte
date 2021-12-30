@@ -170,12 +170,15 @@
         color: #05d9e8;
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 420px) and (max-height: 736px) {
         .navBar {
         transform: translateX(100px);
     }
     .navBar a{
         font-size: 15px;
+    }
+    #blobSvg {
+        transform: translateY(15px);
     }
     .wrapper {
         display: inline-flex;
@@ -265,7 +268,7 @@
 
     }
 
-    @media (max-width: 1200px){
+    @media (max-width: 0px){
         body{
             overflow-y: scroll;
         }
