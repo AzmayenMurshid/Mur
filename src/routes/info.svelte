@@ -7,6 +7,11 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
+    body{
+        background: var(--bg-secondary);
+        opacity: 1;
+    }
+
     #About-Me {
         margin-bottom: 10%;
     }
@@ -298,6 +303,7 @@
 
     @media (min-width: 1000px) and (orientation: landscape) {
         body{
+            background: var(--bg-secondary);
             opacity: 1;
         }
         .navBar {
@@ -331,6 +337,7 @@
     }
     @media (min-width: 1500px) and (orientation: landscape) {
         body{
+            background: var(--bg-secondary);
             opacity: 1;
         }
         .navBar {

@@ -174,6 +174,7 @@
         body {
             overflow-y: hidden;
             opacity: 1;
+            height: 1100;
 
         }
         #blobSvg {
