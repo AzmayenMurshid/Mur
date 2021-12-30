@@ -183,6 +183,7 @@
     }
     #Projects .heading h2 {
         transform:translateX(-30%);
+        margin-left: -20px;
     }
     .project-Container {
         display: inline-flex;
