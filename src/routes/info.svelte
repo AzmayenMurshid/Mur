@@ -80,7 +80,8 @@
 
     .about-me-Content p {
         float: right;
-        width: 70%;
+        width: 50%;
+        overflow: hidden;
         color: #d1f7ff;
         text-align: justify;
         padding-top: 2%;
@@ -211,15 +212,15 @@
     .project-Container h5 {
         margin-top: 50px;
     }
-    @media (min-width: 100px) {
+    @media (min-width: 100px) and (orientation: portrait){
         .navBar {
-        transform: translateX(20px);
+        transform: translateX(25px);
         }
         nav{
             width: 150%;
         }
         .navBar a{
-            font-size: 15px;
+            font-size: 13px;
             padding-left: 5px;
         }
         span img {
@@ -287,6 +288,37 @@
             width: 80%;
             margin: 20px;
             margin-left: 40px;
+        }
+    }
+
+    @media (min-width: 1000px) and (orientation: landscape) {
+        .navBar {
+            transform: translateX(450px)
+        }
+        .about-me-Content h3 {
+            width: auto;
+            padding-top: 0;
+            transform: translateY(-30px);
+            margin-left: 600px;
+            text-align: center;
+        }
+        .about-me-Content ul {
+            margin-top: -50px;
+        }
+        .about-me-Content ul li{
+            transform: translateX(120px);
+        }
+        .titles {
+            transform: translateX(60px);
+        }
+        .titles:hover {
+            border-left: 3px solid cyan;
+        }
+        .descriptions {
+            transform: translateX(-150px);
+        }
+        .project-Container h5 {
+            margin-top: 50px;
         }
     }
 </style>
