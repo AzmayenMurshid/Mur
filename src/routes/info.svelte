@@ -217,7 +217,7 @@
     .project-Container h5 {
         margin-top: 50px;
     }
-    @media (min-width: 100px) and (orientation: portrait){
+    @media (max-width: 700px) and (orientation: portrait){
         body{
             overflow-y: auto;
         }
@@ -232,7 +232,7 @@
             padding-left: 5px;
         }
         span img {
-            transform: translateX(-2000px);
+            display: none;
         }
 
         .about-me .heading {
@@ -245,6 +245,7 @@
 
         .about-me-Content {
             animation: none;
+            margin-top: 150px;
         }
 
         .about-me-Content p {
@@ -265,11 +266,20 @@
         }
 
         .about-me-Content ul {
-            margin-right: 20px;
+            margin-right: 50px;
+            text-align: center;
+            list-style: none;
+        }
+
+        .about-me-Content ul li {
+            list-style: none;
         }
 
         .about-me-Content #BackEnd {
-            margin-left: 60px;
+            margin-left: 80px;
+        }
+        .about-me-Content #Databases {
+            transform: translateX(180px);
         }
 
         #Experiences .heading h2 {
@@ -280,12 +290,16 @@
         }
 
         #Experiences .titles {
-            transform: translateX(-1000px);
+            display: none;
         }
         #Experiences .descriptions {
-            width: 80%;
-            transform: translateX(-400px);
+            width: 75%;
+            transform: translateX(-275px);
             font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-box-orient: horizontal;
+            margin-left: none;
         }
 
         #Projects .heading h2 {
@@ -303,6 +317,7 @@
             transform: none;
         }
     }
+
 
     @media (min-width: 1000px) and (orientation: landscape) {
         body{

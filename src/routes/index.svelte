@@ -35,6 +35,10 @@
         overflow-x: hidden;
     }
 
+    .Mobile-Wrapper{
+        display: none;
+    }
+
     #blobSvg {
         display: block;
         float: left;
@@ -192,57 +196,18 @@
         #svgWaves{
             transform: translate(-2000px);
         }
-        .wrapper {
-            display: inline-flex;
-            align-items: center;
-            transform: translateX(30%);
-            margin-top: 10%;
-            position: absolute;
-        }
-        .wrapper .static-txt {
-            color: #fff;
-            font-size: 32px;
-            font-weight: 400;
-        }
-        .wrapper .dynamic-txts {
-            margin-left: 10px;
-            height: 30px;
-            line-height: 30px;
-            overflow: hidden;
-        }
-        .dynamic-txts li {
+        #Parent-Wrapper{
+        display: none;
+    }
+    
+        .Mobile-Wrapper{
+            display: block;
+            font-size: 17px;
+            margin: 20px;
+            text-align: center;
             color: #6B9FED;
-            list-style: none;
-            font-size: 30px;
-            font-weight: 500;
-            position: relative;
-            top: 0;
-            animation: slide 6s steps(4) infinite;
-        }
-        @keyframes slide {
-            100% {
-                top: -360px;
-            }
-        }
-        .dynamic-txts li span {
-            position: relative;
-        }
-        .dynamic-txts li span::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background: #01012b;
-            border-left: 3px solid var(--bg-secondary);
-            animation: typing 1.5s steps(10) infinite;
-        }
-        @keyframes typing {
-            100% {
-                border-left-color: #A1A7C8;
-                left: 100%;
-                margin: 0 -35px 0 35px;
-            }
+            margin-top: 100px;
+            margin-bottom: -100px;
         }
         .intro h2 {
             width: 200%;
@@ -254,7 +219,7 @@
             width: 150%;
             font-size: 15px;
             margin-top: 50px;
-            margin-left: -60px;
+            margin-left: -50px;
             border: 3px solid white;
             padding: 20px;
             transform: translateX(0);
@@ -265,7 +230,6 @@
         }
         .contact-Me div {
             width: 100%;
-            padding-left: 20%;
             border: 3px solid cyan;
             border-radius: 30px;
             margin-left: -10px;
@@ -277,6 +241,8 @@
         }
         .contact-Me div a {
             text-align: center;
+            padding-left: 20px;
+            padding-right: 10px;
         }
 
     }
@@ -370,6 +336,9 @@
                 <li><span>Artist</span></li>
             </ul>
         </div>
+    </div>
+    <div class="Mobile-Wrapper">
+        <h1>I'm a developer</h1>
     </div>
 
     <div class='intro'>
