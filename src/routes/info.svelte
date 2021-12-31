@@ -217,7 +217,7 @@
     .project-Container h5 {
         margin-top: 50px;
     }
-    @media (max-width: 700px) and (orientation: portrait){
+    @media (max-width: 500px) and (orientation: portrait){
         body{
             overflow-y: auto;
         }
