@@ -188,7 +188,7 @@
             background-color: none;
             position: absolute;
             top: 30px;
-            left: 70px;
+            left: 45px;
             right: 0;
             z-index: 2;
         }
@@ -201,6 +201,7 @@
         }
         nav ul li a {
             color: #6B9FED;
+            font-size: 17px;
         }
         .menu-icon {
             display: show;
