@@ -237,7 +237,7 @@
         }
         .intro h2 {
             width: 200%;
-            transform:translateX(-20px);
+            transform:translateX(-30px);
             margin-top: 130px;
             margin-bottom: -30px;
             font-size: 20px;
