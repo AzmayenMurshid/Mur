@@ -398,7 +398,7 @@
         <nav class="navBar">
             <ul>
                 <li><a href="/"><svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" id="blobSvg"
-                     style ="margin-right: 30px; margin-left: -30px; margin-top: -10px">
+                     style ="margin-right: 10px; margin-left: -30px; margin-top: -10px">
                     <defs>
                       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                         <stop offset="0%" style="stop-color: rgb(76, 161, 175);"></stop>
