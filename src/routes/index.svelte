@@ -156,20 +156,21 @@
         opacity: 0.5;
     }
 
-    .navBar {
-        overflow: hidden;
-        transform: translateX(80%);
-        margin-top: 30px;
-        margin-right: 50px;
+    #navigation img {
+        display: none;
     }
 
-    .navBar a {
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+    nav ul li a{
         text-decoration: none;
         color: white;
-        margin-right: 20px;
-
+        font-size: 14px;
     }
-
     .navBar a:hover {
         color: #05d9e8;
     }
@@ -182,13 +183,37 @@
         #blobSvg {
             margin-left: -100px;
         }
-        .navBar {
-        transform: translateX(50px);
-        margin-left: -10px;
+        nav ul {
+            width: 100%;
+            background-color: none;
+            position: absolute;
+            top: 30px;
+            left: 70px;
+            right: 0;
+            z-index: 2;
         }
-        .navBar a{
-            font-size: 15px;
-            padding-left: 10px;
+        nav ul li {
+            display: block;
+            margin: 10px;
+            text-align: left;
+            display: inline-block;
+
+        }
+        nav ul li a {
+            color: #6B9FED;
+        }
+        .menu-icon {
+            display: show;
+            width: 25px;
+            cursor: pointer;
+            border: 3px solid white;
+            float: left;
+            margin: 10px;
+            margin-top: 20px;
+        }
+        #Menu-List {
+            overflow: hidden;
+            transition: 0.5s;
         }
         #blobSvg {
             transform: translateY(15px);
@@ -206,14 +231,16 @@
             margin: 20px;
             text-align: center;
             color: #6B9FED;
-            margin-top: 100px;
+            margin-top: 150px;
             margin-bottom: -100px;
+            margin-left: 10px;
         }
         .intro h2 {
             width: 200%;
-            transform:translateX(-60px);
+            transform:translateX(-20px);
             margin-top: 130px;
-            font-size: 25px;
+            margin-bottom: -30px;
+            font-size: 20px;
         }
         .intro p {
             width: 150%;
@@ -232,7 +259,7 @@
             width: 100%;
             border: 3px solid cyan;
             border-radius: 30px;
-            margin-left: -10px;
+            margin-left: 10px;
             margin-top: -20px;
         }
         .contact-Me div:hover{
@@ -241,8 +268,7 @@
         }
         .contact-Me div a {
             text-align: center;
-            padding-left: 20px;
-            padding-right: 10px;
+            padding-left: 40px;
         }
 
     }
@@ -319,11 +345,14 @@
             d="M434.5,336Q422,422,336,437.5Q250,453,181,420.5Q112,388,59,319Q6,250,52,174Q98,98,174,58Q250,18,333.5,50.5Q417,83,432,166.5Q447,250,434.5,336Z"
             fill="url(#gradient)"></path>
     </svg>
-    <div>
-        <nav class="navBar">
-            <a href="/info#About-me">about me</a>
-            <a href="/info#Experiences">experience</a>
-            <a href="/info#Projects">projects</a>
+    <div id="navigation">
+        <img src="https://img.icons8.com/color/48/000000/menu--v3.png" alt="" class="menu-icon"/>
+        <nav class= navBar>
+            <ul id ="Menu-List">
+                <li><a href="/info#About-me">about me</a></li>
+                <li><a href="/info#Experiences">experience</a></li>
+                <li><a href="/info#Projects">projects</a></li>
+            </ul>
         </nav>
     </div>
     <div id="Parent-Wrapper">
@@ -395,5 +424,4 @@
             stroke="none" stroke-width="0" fill="url(#gradient)"
             class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
     </svg>
-
 </body>
