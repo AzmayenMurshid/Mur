@@ -227,9 +227,16 @@
         nav{
             width: 150%;
         }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            display: inline-block;
+        }
         .navBar a{
-            font-size: 8px;
+            font-size: 15px;
             padding-left: 5px;
+            color: #6B9FED;
         }
         span img {
             display: none;
@@ -323,9 +330,18 @@
         body{
             background: var(--bg-secondary);
             opacity: 1;
+            overflow-x: hidden;
         }
         .navBar {
             transform: translateX(450px)
+        }
+        .navBar ul li{
+            list-style: none;
+            display: inline-block;
+        }
+        .navBar ul li svg {
+            transform: translateX(-1000px);
+            width: 50px;
         }
         .about-me-Content h3 {
             width: auto;
@@ -357,9 +373,18 @@
         body{
             background: var(--bg-secondary);
             opacity: 1;
+            overflow-x: hidden;
         }
         .navBar {
             transform: translateX(1100px);
+        }
+        .navBar ul li{
+            list-style: none;
+            display: inline-block;
+        }
+        .navBar ul li svg {
+            transform: translateX(-1000px);
+            width: 50px;
         }
         .about-me-Content h3, .about-me-Content #BackEnd{
             margin-left: 50%;
@@ -389,10 +414,21 @@
 <body>
     <div id="About-Me">
         <nav class="navBar">
-            <a href="/">home</a>
-            <a href="#About-Me">about me</a>
-            <a href="#Experiences">experience</a>
-            <a href="#Projects">projects</a>
+            <ul>
+                <li><a href="/"><svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" id="blobSvg"
+                     style ="margin-right: 10px; margin-left: -30px; margin-top: -10px">
+                    <defs>
+                      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(76, 161, 175);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(196, 224, 229);"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path id="blob" d="M447,334Q418,418,334,424Q250,430,188,402Q126,374,96,312Q66,250,73,165Q80,80,165,72.5Q250,65,308,99.5Q366,134,421,192Q476,250,447,334Z" fill="url(#gradient)"></path>
+                  </svg></a></li>
+                <li><a href="#About-Me">about me</a></li>
+                <li><a href="#Experiences">experience</a></li>
+                <li><a href="#Projects">projects</a></li>
+            </ul>
         </nav>
     </div>
     <div class="about-me">
@@ -496,7 +532,7 @@
         <div class="project-Container">
             <span>
             <h4>Todo List</h4>
-            <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
+            <a href = "https://github.com/AzmayenMurshid/full-stack-web-development">
             <p>An User friendly app to contain your checklists, todos, and reminders. Consisting of database to store data.</p>
             <h5>Svelte, Javascript, TypeScript, HTML, CSS, Prisma, Postgres</h5>
             </a>
@@ -505,8 +541,8 @@
         <div class="project-Container">
             <span>
             <h4>Muricle Game</h4>
-            <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
-            <p>A pixelated Retro game inspired from Mario. Contains 3 levels and player has to fight enemies and go thorugh obstacles to win!</p>
+            <a href = "https://github.com/AzmayenMurshid/Muricle-Shooter-Game">
+            <p>A pixelated Retro game inspired from Mario. Contains 3 levels and player has to fight enemies and go through obstacles to win!</p>
             <h5>Python</h5>
             </a>
             </span>
