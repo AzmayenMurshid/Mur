@@ -330,9 +330,18 @@
         body{
             background: var(--bg-secondary);
             opacity: 1;
+            overflow-x: hidden;
         }
         .navBar {
             transform: translateX(450px)
+        }
+        .navBar ul li{
+            list-style: none;
+            display: inline-block;
+        }
+        .navBar ul li svg {
+            transform: translateX(-1000px);
+            width: 50px;
         }
         .about-me-Content h3 {
             width: auto;
@@ -364,9 +373,18 @@
         body{
             background: var(--bg-secondary);
             opacity: 1;
+            overflow-x: hidden;
         }
         .navBar {
             transform: translateX(1100px);
+        }
+        .navBar ul li{
+            list-style: none;
+            display: inline-block;
+        }
+        .navBar ul li svg {
+            transform: translateX(-1000px);
+            width: 50px;
         }
         .about-me-Content h3, .about-me-Content #BackEnd{
             margin-left: 50%;
@@ -514,7 +532,7 @@
         <div class="project-Container">
             <span>
             <h4>Todo List</h4>
-            <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
+            <a href = "https://github.com/AzmayenMurshid/full-stack-web-development">
             <p>An User friendly app to contain your checklists, todos, and reminders. Consisting of database to store data.</p>
             <h5>Svelte, Javascript, TypeScript, HTML, CSS, Prisma, Postgres</h5>
             </a>
@@ -523,8 +541,8 @@
         <div class="project-Container">
             <span>
             <h4>Muricle Game</h4>
-            <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
-            <p>A pixelated Retro game inspired from Mario. Contains 3 levels and player has to fight enemies and go thorugh obstacles to win!</p>
+            <a href = "https://github.com/AzmayenMurshid/Muricle-Shooter-Game">
+            <p>A pixelated Retro game inspired from Mario. Contains 3 levels and player has to fight enemies and go through obstacles to win!</p>
             <h5>Python</h5>
             </a>
             </span>
