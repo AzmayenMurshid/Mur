@@ -8,7 +8,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
     body {
-        overflow-y: scroll;
+        background-color: #151542;
+        opacity: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     #About-Me {
@@ -220,6 +223,7 @@
     @media (max-width: 500px) and (orientation: portrait){
         body{
             overflow-y: auto;
+            background-color: #151542;
         }
         .navBar {
         transform: translateX(30px);
@@ -371,9 +375,8 @@
     }
     @media (min-width: 1500px) and (orientation: landscape) {
         body{
-            background: var(--bg-secondary);
-            opacity: 1;
-            overflow-x: hidden;
+            overflow-y: auto;
+            background-color:#01012b;
         }
         .navBar {
             transform: translateX(1100px);
