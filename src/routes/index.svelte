@@ -133,29 +133,6 @@
         text-align: left;
     }
 
-    .contact-Me {
-        transform: translateX(35%);
-
-    }
-
-    .contact-Me div {
-        transform: translateY(400%);
-        display: block;
-        width: 12%;
-        border: 2px solid white;
-        padding: 10px;
-    }
-
-    .contact-Me a {
-        text-decoration: none;
-        color: #6B9FED;
-        font-size: 150%;
-    }
-
-    .contact-Me a:hover {
-        opacity: 0.5;
-    }
-
     #navigation img {
         display: none;
     }
@@ -165,6 +142,7 @@
         display: inline-block;
         margin-right: 30px;
         margin-top: 50px;
+        transform: translateX(-100px);
     }
     nav ul li a{
         text-decoration: none;
@@ -252,21 +230,6 @@
             padding: 20px;
             transform: translateX(0);
         }
-        .contact-Me {
-            transform: translateY(-250px);
-            margin: 80px;
-        }
-        .contact-Me div {
-            width: 100%;
-            border: 3px solid cyan;
-            border-radius: 30px;
-            margin-left: 10px;
-            margin-top: -20px;
-        }
-        .contact-Me div:hover{
-            opacity: 2;
-            border: 3px solid white;
-        }
         .contact-Me div a {
             text-align: center;
             padding-left: 40px;
@@ -304,13 +267,10 @@
         .wrapper .dynamic-txts{
             transform: translateX(-130px)
         }
-        .contact-Me{
-            width: 150%;
-            transform: translateY(-230px);
-            margin-left: 28%;
-        }
         #svgWaves {
-            transform: translateY(-200px);
+            transform: translateY(-150px);
+            margin-left: -10%;
+            width: calc(100% + 50%);            
         }
     }
 
@@ -325,10 +285,6 @@
         }
         .wrapper {
             transform: translateX(450px);
-        }
-        .contact-Me div {
-            margin-left: -10px;
-            width: 10%;
         }
     }
 </style>
@@ -353,6 +309,8 @@
                 <li><a href="/info#About-me">about me</a></li>
                 <li><a href="/info#Experiences">experience</a></li>
                 <li><a href="/info#Projects">projects</a></li>
+                <li><a href="mailto: azmayen.murshid@gmail.com">Contact Me</a></li>
+
             </ul>
         </nav>
     </div>
@@ -375,12 +333,6 @@
         <h2>I create stuff sometimes</h2>
         <p>I am a high school student based in Sunway, Malaysia with a passion for Full-Stack development,
             Machine Learning, Ai-Human interactions, and everything in between.</p>
-    </div>
-
-    <div class="contact-Me">
-        <div>
-            <a href="mailto: azmayen.murshid@gmail.com">Contact Me</a>
-        </div>
     </div>
 
     <svg width="100%" height="100%" id="svgWaves" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg"
