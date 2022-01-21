@@ -31,7 +31,7 @@
         justify-content: center;
         min-height: 100vh;
         margin-top: 0%;
-        overflow-y: hidden;
+        overflow-y: auto;
         overflow-x: hidden;
     }
 
@@ -276,7 +276,7 @@
 
     @media(min-width: 1000px){
         body{
-            overflow-y: hidden;
+            overflow-y: auto;
             opacity: 1;
 
         }
@@ -316,7 +316,7 @@
 
     @media (min-width: 1500px) and (orientation: landscape) {
         body {
-            overflow: hidden;
+            overflow-y: auto;
             opacity: 1;
 
         }
