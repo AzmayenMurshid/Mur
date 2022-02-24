@@ -164,17 +164,18 @@
         nav ul {
             display: flex;
             justify-content: space-between;
+            padding: 10px;
             width: 100%;
             background-color: none;
             position: absolute;
-            top: 30px;
+            top: -10px;
             left: 45px;
             transform: translateX(60px);
             z-index: 2;
         }
         nav ul li a {
             color: #6B9FED;
-            font-size: 10px;
+            font-size: 17px;
         }
         .menu-icon {
             width: 25px;
@@ -214,17 +215,24 @@
             padding: 20px;
             transform: translateX(0);
         }
-        .contact-Me div a {
+        #Contact-Me{
             text-align: center;
-            padding-left: 40px;
+            margin-top: 100px;
         }
-
+        #Contact-Me a{
+            border: 2px solid cyan;
+            border-radius: 10px;
+            padding: 20px;
+            text-decoration: none;
+            color: cyan;
+        }
     }
 
     @media(min-width: 1000px){
         body{
             overflow-y: auto;
             opacity: 1;
+            height: 100%;
 
         }
         #blobSvg {
@@ -270,6 +278,9 @@
         .wrapper {
             transform: translateX(450px);
         }
+        #Contact-Me{
+            display: none;
+        }
     }
 </style>
 
@@ -293,7 +304,6 @@
                 <li><a href="/info#About-me">about me</a></li>
                 <li><a href="/info#Experiences">experience</a></li>
                 <li><a href="/info#Projects">projects</a></li>
-                <li><a href="mailto: azmayen.murshid@gmail.com">Contact Me</a></li>
 
             </ul>
         </nav>
@@ -317,6 +327,10 @@
         <h2>I create stuff sometimes</h2>
         <p>I am a high school student based in Sunway, Malaysia with a passion for Full-Stack development,
             Machine Learning, Ai-Human interactions, and everything in between.</p>
+    </div>
+
+    <div id="Contact-Me">
+        <a href = "mailto: azmayen.murshid@gmail.com" >Contact Me</a>
     </div>
 
     <svg width="100%" height="100%" id="svgWaves" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg"
@@ -362,3 +376,6 @@
             class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
     </svg>
 </body>
+<footer>
+
+</footer>
