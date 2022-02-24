@@ -229,10 +229,13 @@
         transform: translateX(30px);
         }
         nav{
-            width: 150%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
         }
         nav ul {
             list-style: none;
+            
         }
         nav ul li {
             display: inline-block;
@@ -329,6 +332,116 @@
         }
     }
 
+    @media (min-width: 400px) and (orientation: portrait){
+        #ex-info{
+            margin-left: 30px;
+        }
+        #ex-info table {
+            width: 400px;
+        }
+    }
+
+    @media (max-width: 800px) and (orientation: landscape){
+        body{
+            background-color: #01012b;
+        }
+        .navBar {
+            width: 100%;
+            transform: translateX(30px);
+            /* border: 3px solid white; */
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 50px;
+            
+        }
+        nav ul li {
+            display: inline-block;
+            text-align: right;
+            font-size: 20px;
+
+        }
+        .navBar a{
+            font-size: 15px;
+            padding-left: 5px;
+            color: #6B9FED;
+        }
+        span img {
+            display: none;
+        }
+        .about-me{
+            width: 100%;
+            text-align: center;
+        }
+
+        .heading{
+            transform: translateX(100px);
+        }
+
+        .about-me .heading h2 {
+            margin-top: 100px;
+            margin-bottom: -100px;
+        }
+
+        .about-me-Content {
+            animation: none;
+            margin-top: 150px;
+            width: 100%;
+        }
+
+        .about-me-Content p {
+            clear: both;
+            float: none;
+            overflow: scroll;
+            width: 80%;
+            border: 3px solid white;
+            padding: 20px;
+            margin-top: 20px;
+            margin-left: 150px;
+            animation: none;
+        }
+        .about-me-Content h3 {
+            font-size: 20px;
+            width: 150%;
+            transform: translateX(-100px)
+        }
+
+        #tech-languages{
+            transform:translateX(-100px);
+        }
+
+        .about-me-Content ul {
+            margin-right: 50px;
+            text-align: center;
+            list-style: none;
+        }
+
+        #ex-info{
+            transform: translateX(-100px);
+            width: 100%;
+        }
+        .titles{
+            display: none;
+        }
+
+        #Projects{
+            width: 100%;
+        }
+
+        #Projects .heading{
+            width: 100%;
+            text-align: center;
+            margin-left: 150px;
+        }
+
+        .project-Container{
+            width: 27%;
+            height: 425px;
+        }
+    }
 
     @media (min-width: 1000px) and (orientation: landscape) {
         body{
@@ -415,24 +528,25 @@
 </style>
 
 <body>
+    <nav class="navBar">
+        <ul>
+            <li><a href="/"><svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" id="blobSvg"
+                 style ="margin-right: 10px; margin-left: -30px; margin-top: -10px">
+                <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color: rgb(76, 161, 175);"></stop>
+                    <stop offset="100%" style="stop-color: rgb(196, 224, 229);"></stop>
+                  </linearGradient>
+                </defs>
+                <path id="blob" d="M447,334Q418,418,334,424Q250,430,188,402Q126,374,96,312Q66,250,73,165Q80,80,165,72.5Q250,65,308,99.5Q366,134,421,192Q476,250,447,334Z" fill="url(#gradient)"></path>
+              </svg></a></li>
+            <li><a href="#About-Me">about me</a></li>
+            <li><a href="#Experiences">experience</a></li>
+            <li><a href="#Projects">projects</a></li>
+        </ul>
+    </nav>
+
     <div id="About-Me">
-        <nav class="navBar">
-            <ul>
-                <li><a href="/"><svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" id="blobSvg"
-                     style ="margin-right: 10px; margin-left: -30px; margin-top: -10px">
-                    <defs>
-                      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                        <stop offset="0%" style="stop-color: rgb(76, 161, 175);"></stop>
-                        <stop offset="100%" style="stop-color: rgb(196, 224, 229);"></stop>
-                      </linearGradient>
-                    </defs>
-                    <path id="blob" d="M447,334Q418,418,334,424Q250,430,188,402Q126,374,96,312Q66,250,73,165Q80,80,165,72.5Q250,65,308,99.5Q366,134,421,192Q476,250,447,334Z" fill="url(#gradient)"></path>
-                  </svg></a></li>
-                <li><a href="#About-Me">about me</a></li>
-                <li><a href="#Experiences">experience</a></li>
-                <li><a href="#Projects">projects</a></li>
-            </ul>
-        </nav>
     </div>
     <div class="about-me">
         <div class="heading">
@@ -456,22 +570,25 @@
                 and game development. On my free time I update personal websites, develop video games and networking.</p>
                 
                 <h3>Technologies I have worked with</h3>
-
-                <ul id="BackEnd">
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                </ul>
-                <ul class="techList" id="FrontEnd">
-                    <li>HTML & CSS</li>
-                    <li>Javascript</li>
-                    <li>Svelte</li>
-                </ul>
-                <ul id="Databases">
-                    <li>PostgreSQL</li>
-                    <li>MySQL</li>
-                    <li>SQL</li>
-                </ul>
+                
+                <div id="tech-languages">
+                    <ul id="BackEnd">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                    </ul>
+                    <ul class="techList" id="FrontEnd">
+                        <li>HTML & CSS</li>
+                        <li>Javascript</li>
+                        <li>Svelte</li>
+                    </ul>
+                    <ul id="Databases">
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                
         </span>
     </div>
     <div id="Experiences">

@@ -27,12 +27,10 @@
 
     body {
         background:#01012b;
-        align-items: center;
-        justify-content: center;
         min-height: 100vh;
         margin-top: 0%;
         overflow-y: auto;
-        overflow-x: hidden;
+        width: 100%;
     }
 
     .Mobile-Wrapper{
@@ -156,7 +154,9 @@
     @media (min-width: 100px) and (orientation: portrait) {
         body {
             overflow-y: auto;
+            overflow-x: hidden;
             opacity: 1;
+            width: 100%;
         }
         #blobSvg {
             display: none;
@@ -164,6 +164,7 @@
         nav ul {
             display: flex;
             justify-content: space-between;
+            margin-left: 7px;
             padding: 10px;
             width: 100%;
             background-color: none;
@@ -199,6 +200,7 @@
             margin-bottom: -100px;
             margin-left: 10px;
         }
+
         .intro h2 {
             width: 200%;
             transform:translateX(-30px);
@@ -227,6 +229,67 @@
             color: cyan;
         }
     }
+
+    @media (max-width: 800px) and (orientation: landscape){
+
+        body{
+            height: 100vh;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 200px;
+            padding: 10px;
+            width: 60%;
+            background-color: none;
+            position: absolute;
+            top: -10px;
+            left: 45px;
+            transform: translateX(60px);
+            z-index: 2;
+        }
+        nav ul li a {
+            color: #6B9FED;
+            font-size: 17px;
+        }
+
+        #Parent-Wrapper{
+            transform: translateY(100px);
+        }
+
+        .wrapper{
+            margin-left: -300px;
+            margin-bottom: -300px;
+        }
+        .intro{
+            margin-right: 100px;
+        }
+        .intro h2{
+            width: 125%;
+            margin-top: 250px;
+            transform: translateX(-60px);
+            margin-bottom: -250px;
+        }
+        .intro p{
+            width: 150%;
+            text-align: left;
+            margin-right: 200px;
+            margin-left: -57px;
+            margin-top: 80px;
+            font-size: 15px;
+        }
+
+        #Contact-Me{
+            display: none;
+        }
+        #svgWaves{
+            position: absolute;
+            height: auto;
+            bottom: 0;
+        }
+    }
+
 
     @media(min-width: 1000px){
         body{
