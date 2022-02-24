@@ -338,6 +338,7 @@
         }
         #ex-info table {
             width: 400px;
+            margin-right: 30px;
         }
     }
 
