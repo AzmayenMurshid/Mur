@@ -220,10 +220,10 @@
     .project-Container h5 {
         margin-top: 50px;
     }
-    @media (max-width: 500px) and (orientation: portrait){
+    @media (min-width: 100px) and (orientation: portrait){
         body{
             overflow-y: auto;
-            background-color: #151542;
+            background-color: #01012b;
         }
         .navBar {
         transform: translateX(30px);
