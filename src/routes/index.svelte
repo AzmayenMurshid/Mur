@@ -159,30 +159,24 @@
             opacity: 1;
         }
         #blobSvg {
-            margin-left: -100px;
+            display: none;
         }
         nav ul {
+            display: flex;
+            justify-content: space-between;
             width: 100%;
             background-color: none;
             position: absolute;
             top: 30px;
             left: 45px;
-            right: 0;
+            transform: translateX(60px);
             z-index: 2;
-        }
-        nav ul li {
-            display: block;
-            margin: 10px;
-            text-align: left;
-            display: inline-block;
-
         }
         nav ul li a {
             color: #6B9FED;
-            font-size: 17px;
+            font-size: 10px;
         }
         .menu-icon {
-            display: show;
             width: 25px;
             cursor: pointer;
             border: 3px solid white;
@@ -190,20 +184,10 @@
             margin: 10px;
             margin-top: 20px;
         }
-        #Menu-List {
-            overflow: hidden;
-            transition: 0.5s;
+        #blobSvg, #svgWaves, #Parent-Wrapper{
+            display: none;
         }
-        #blobSvg {
-            transform: translateY(15px);
-        }
-        #svgWaves{
-            transform: translate(-2000px);
-        }
-        #Parent-Wrapper{
-        display: none;
-    }
-    
+
         .Mobile-Wrapper{
             display: block;
             font-size: 17px;
