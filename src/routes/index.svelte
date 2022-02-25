@@ -157,7 +157,7 @@
             overflow-x: hidden;
             opacity: 1;
             width: 100%;
-            height: 500px;
+            height: 600px;
         }
         #blobSvg {
             display: none;
@@ -222,7 +222,7 @@
         }
         #Contact-Me{
             text-align: center;
-            margin-top: 100px;
+            margin-top: 70px;
             margin-bottom: 30px;
 
         }
