@@ -167,7 +167,6 @@
             margin-left: 7px;
             padding: 10px;
             width: 100%;
-            background-color: none;
             position: absolute;
             top: -10px;
             left: 45px;
@@ -192,30 +191,33 @@
 
         .Mobile-Wrapper{
             display: block;
-            font-size: 17px;
-            margin: 20px;
+            width: 100%;
             text-align: center;
+            margin-top: 175px;
             color: #6B9FED;
-            margin-top: 150px;
-            margin-bottom: -100px;
-            margin-left: 10px;
+        }
+
+        .intro{
+            display: block;
+            width: 100%;
+            text-align: center;
         }
 
         .intro h2 {
-            width: 200%;
-            transform:translateX(-30px);
-            margin-top: 130px;
-            margin-bottom: -30px;
-            font-size: 20px;
+            font-size: 25px;
+            text-align: center;
+            transform: translateX(-210px);
+            margin-top: 50px;
         }
         .intro p {
-            width: 150%;
+            width: 350px;
             font-size: 15px;
             margin-top: 50px;
-            margin-left: -50px;
+            margin-left: -180px;
             border: 3px solid white;
             padding: 20px;
             transform: translateX(0);
+            text-align: center;
         }
         #Contact-Me{
             text-align: center;

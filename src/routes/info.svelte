@@ -628,8 +628,8 @@
                     <td class = "descriptions">Everything I have learned so far were through online courses which even prepared me for school. Everything I learned from basic python syntax to full stack web development, were through:
                         <ul style="padding-left: 7%; padding-top: 2%; padding-bottom: 2%;">
                             <li><a href="https://www.freecodecamp.org/" style="color: cyan; text-decoration:none" target="_blank">FreeCodeCamp</a></li>
-                            <li><a href="https://www.w3schools.com/" style="color: cyan; text-decoration:none" target="_blank">Code Academy</a></li>
-                            <li><a href="https://www.codecademy.com/" style="color: cyan; text-decoration:none" target="_blank">W3schools</a></li>
+                            <li><a href="https://www.codecademy.com/" style="color: cyan; text-decoration:none" target="_blank">Code Acacemy</a></li>
+                            <li><a href="https://www.w3schools.com/" style="color: cyan; text-decoration:none" target="_blank">w3schools</a></li>
                         </ul>
                     </td>
                 </tr>
