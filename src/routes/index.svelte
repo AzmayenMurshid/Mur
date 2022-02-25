@@ -156,8 +156,6 @@
             overflow-y: auto;
             overflow-x: hidden;
             opacity: 1;
-            width: 100%;
-            height: auto;
         }
         #blobSvg {
             display: none;
