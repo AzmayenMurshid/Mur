@@ -334,11 +334,10 @@
 
     @media (min-width: 400px) and (orientation: portrait){
         #ex-info{
-            margin-left: 30px;
+            margin-left: 15px;
         }
         #ex-info table {
             width: 400px;
-            margin-right: 30px;
         }
     }
 
