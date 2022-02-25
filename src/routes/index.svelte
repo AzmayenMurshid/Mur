@@ -223,7 +223,7 @@
         #Contact-Me{
             text-align: center;
             margin-top: 100px;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
 
         }
         #Contact-Me a{
@@ -232,6 +232,7 @@
             padding: 20px;
             text-decoration: none;
             color: cyan;
+            bottom: 30px;
         }
     }
 
