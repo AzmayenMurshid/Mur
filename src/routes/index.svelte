@@ -157,7 +157,7 @@
             overflow-x: hidden;
             opacity: 1;
             width: 100%;
-            height: 600px;
+            height: auto;
         }
         #blobSvg {
             display: none;
