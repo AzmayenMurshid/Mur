@@ -229,6 +229,7 @@
             padding: 20px;
             text-decoration: none;
             color: cyan;
+            margin-bottom: 50px;
         }
     }
 
