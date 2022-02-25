@@ -382,7 +382,7 @@
                 <li><span>Developer</span></li>
                 <li><span>Designer</span></li>
                 <li><span>CS Student</span></li>
-                <li><span>Artist</span></li>
+                <li><span>High Schooler</span></li>
             </ul>
         </div>
     </div>

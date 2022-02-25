@@ -556,18 +556,13 @@
             <img src="https://media3.giphy.com/media/l0IpXgEBZ3y3UEljO/giphy.gif?cid=790b76116e6fe86933e15c420b871ae23b6b8ee88565ca36&rid=giphy.gif&ct=s" alt="" width="30%" height="20%">
         </span>
         <span class="about-me-Content animatedTexts">
-            <p>I am currently in High School at Sunway International School. Regardless of my academic
-                background
-                I have been able to accomplosh numerous personal projects, including motion-censor volume control, Todo
-                lists,
-                Arcade game developments and web developments. Last semester I excelled at Computer Science with an
-                average
-                of 94%.
-                I am grateful to be mentored by a UC Berkeley graduate, Saif Nizam. I am into any sort of software
-                develpment that
-                requires creativity and critical thinking. Some areas that peak my interest are full-stack development,
-                Machine-Learning,
-                and game development. On my free time I update personal websites, develop video games and networking.</p>
+            <p>I am currently in High School at Sunway International School. Regardless of my academic background,
+                I have been able to build numerous personal projects,
+                including a motion-sensor volume control, todo lists, arcade games and other types of web development.
+                Last semester, I excelled at Computer Science with an average of 94%. I am grateful to be mentored by a UC Berkeley graduate, Saif Nizam.
+                I am into any sort of software development that requires creativity and critical thinking.
+                Some areas that pique my interest are full-stack development, machine learning, and game development.
+                On my free time, I update personal websites, develop video games and network.</p>
                 
                 <h3>Technologies I have worked with</h3>
                 
@@ -600,32 +595,33 @@
             <table>
                 <tr>
                     <td class = "titles">ICS2O</td>
-                    <td class = "descriptions" style='text-align: justify'>ICS2O is a Canadian grade 10 Computer science course that teaches:
+                    <td class = "descriptions" style='text-align: justify'>ICS2O is a Canadian grade 10 Computer Science course that teaches:
                         <ul style="padding-left: 7%; padding-top: 2%; padding-bottom: 2%;">
-                            <li> Fundamental of Computer Science</li>
+                            <li>Fundamental of Computer Science</li>
                             <li>Python</li>
                             <li>HTML & CSS</li>
                         </ul>
-                         At <a href="https://sis.sunway.edu.my/frontpage" style="color: cyan; text-decoration: none;" target="_blank">Sunway International School</a> I worked with hands on projects with fundamental syntax.
-                          In addition, our teacher gave me the apportunity to assist him to tutor the students struggling. through out the semester we worked on various projects which enabled me to understand algorithms, syntax, error handling and debugging more in depth.
-                        we had to create a personal website which summarized our whole course. i was able to code a retro arcade game to go above and beyond.</td>
+                         At <a href="https://sis.sunway.edu.my/frontpage" style="color: cyan; text-decoration: none;" target="_blank">Sunway International School</a>, 
+                         I worked on hands-on projects with fundamental syntax. In addition, our teacher gave me the opportunity to assist him in tutoring the struggling students. 
+                         Throughout the semester, we worked on various projects that enabled me to understand algorithms, syntax, error handling and debugging in-depth. We had to create 
+                         a personal website which summarized our whole course. I was able to code a retro arcade game to go above and beyond the course requirements.</td>
                 </tr>
                 <tr>
                     <td class = "titles">Summer Projects</td>
-                    <td class = "descriptions" style="text-align: justify">Through out the summer I worked on multiple personal projects. Some of them include:
+                    <td class = "descriptions" style="text-align: justify">Throughout the summer I worked on multiple personal projects. Some of them include:
                         <ul style="padding-left: 7%; padding-top: 2%; padding-bottom: 2%;">
-                            <li>Motion Sensor Voice Control</li>
+                            <li>Motion Sensor Volume Control</li>
                             <li>Andoid app development</li>
-                            <li>game development</li>
-                            <li>full stack web development</li>
+                            <li>Game development</li>
+                            <li>Full stack web development</li>
                         </ul>
-                          and many more. Couple of codes are released on 
-                        <a href="https://github.com/AzmayenMurshid" style="color: cyan; text-decoration:none" target="_blank">Github</a> I also had an opportunity to learn about Android app development through <a href="https://developer.android.com/studio" style="color: cyan; text-decoration:none" target="_blank">Android studio</a>, Java, SQL and MySQL. Cross platform app development through <a href="https://flutter.dev/" style="color: cyan; text-decoration:none" target="_blank">Flutter</a>.
-                            Game development was one of the most challenging field as I worked with  <a href="https://www.unrealengine.com/en-US/?sessionInvalidated=true" style="color: cyan; text-decoration:none" target="_blank">Unreal Engine</a> and I am still learning about it to this day. As for full stack development, I have worked with <a href="https://kit.svelte.dev/" style="color: cyan; text-decoration:none" target="_blank">SvelteKit</a> framework. Alongside Sveltekit I had to work with HTML, CSS, Javascript, TypeScript and Postgres.</td>
+                        and many more. Some of them are released on 
+                        <a href="https://github.com/AzmayenMurshid" style="color: cyan; text-decoration:none" target="_blank">Github</a>I also had the opportunity to learn about Android app development through <a href="https://developer.android.com/studio" style="color: cyan; text-decoration:none" target="_blank">Android studio</a>, cross-platform app development through <a href="https://flutter.dev/" style="color: cyan; text-decoration:none" target="_blank">Flutter</a>, as well as Java, SQL and MySQL.
+                        Game development was one of the most challenging fields as I worked with <a href="https://www.unrealengine.com/en-US/?sessionInvalidated=true" style="color: cyan; text-decoration:none" target="_blank">Unreal Engine</a>- I am still learning about it to this day. As for full stack development, I have worked with the <a href="https://kit.svelte.dev/" style="color: cyan; text-decoration:none" target="_blank">SvelteKit</a> framework, as well as HTML, CSS, Javascript, TypeScript and Postgres.</td>
                 </tr>
                 <tr>
                     <td class = "titles">Bootcamp</td>
-                    <td class = "descriptions">Everything I have learned so far were through online courses which even prepared me for school. Everything I learned from basic python syntax to full stack web development, were through:
+                    <td class = "descriptions">Everything I have learned so far was through online courses, which even prepared me for school. Everything I learned, from basic python syntax to full stack web development, were through:
                         <ul style="padding-left: 7%; padding-top: 2%; padding-bottom: 2%;">
                             <li><a href="https://www.freecodecamp.org/" style="color: cyan; text-decoration:none" target="_blank">FreeCodeCamp</a></li>
                             <li><a href="https://www.codecademy.com/" style="color: cyan; text-decoration:none" target="_blank">Code Acacemy</a></li>
@@ -644,7 +640,7 @@
             <span>
                 <h4>Motion sensor Volume Control</h4>
                 <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
-                <p>Change your volume with hand gestures and hovering your hand. Done with external modules such as cv2, mediapipe, math, and many more</p>
+                <p>Change your volume with hand gestures by hovering your hand. Done with external modules such as cv2, mediapipe, math, and many more</p>
                 <h5>Python</h5>
                 </a>
             </span>
@@ -653,7 +649,7 @@
             <span>
             <h4>Todo List</h4>
             <a href = "https://github.com/AzmayenMurshid/full-stack-web-development">
-            <p>An User friendly app to contain your checklists, todos, and reminders. Consisting of database to store data.</p>
+            <p>A user-friendly app to contain your checklists, todos, and reminders. Consisting of a database to store data.</p>
             <h5>Svelte, Javascript, TypeScript, HTML, CSS, Prisma, Postgres</h5>
             </a>
             </span>
@@ -662,7 +658,7 @@
             <span>
             <h4>Muricle Game</h4>
             <a href = "https://github.com/AzmayenMurshid/Muricle-Shooter-Game">
-            <p>A pixelated Retro game inspired from Mario. Contains 3 levels and player has to fight enemies and go through obstacles to win!</p>
+            <p>A pixelated Retro game inspired by Mario. Contains 3 levels and the player has to fight enemies and go through obstacles to win!</p>
             <h5>Python</h5>
             </a>
             </span>
@@ -671,7 +667,7 @@
             <span>
             <h4>Maze Game</h4>
             <a href = "https://github.com/AzmayenMurshid/MazeGame">
-            <p>Retro pixalated game inpired from pacman. Objective is to get to the vortext before the terminators get you! External turtle, math, random and time libraries</p>
+            <p>Retro pixelated game inspired by Pacman. Objective is to get to the vortex before the terminators get you! External turtle, math, random and time libraries</p>
             <h5>Python</h5>
             </a>
             </span>
@@ -680,7 +676,7 @@
             <span>
             <h4>Personal Website</h4>
             <a href = "https://github.com/AzmayenMurshid/Personal-Website">
-            <p>The code to this very website. Done with Svelte framework. consisting of Javascript, HTML and CSS and deployed through vercel.</p>
+            <p>The code to this very website. Done with the Svelte framework. Consisting of Javascript, HTML and CSS, and deployed through Vercel.</p>
             <h5>Svelte, Javascript, HTML, CSS</h5>
             </a>
             </span>
@@ -689,7 +685,7 @@
             <span>
             <h4>Ping pong</h4>
             <a href = "https://github.com/AzmayenMurshid/Ping-Pong">
-            <p>Retro Arcade 2 player ping pong game created with Turtle and time library. player 1 key bindings are "w" and "s", player 2 key bindings are "up", "down".</p>
+            <p>Retro arcade two-player ping pong game created with the turtle and time libraries. Player 1 key bindings are "w" and "s". Player 2 key bindings are "up" and "down". </p>
             <h5>Python</h5>
             </a>
             </span>
