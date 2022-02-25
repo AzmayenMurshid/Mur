@@ -295,7 +295,7 @@
     }
 
 
-    @media(min-width: 1000px){
+    @media(min-width: 1000px) and (orientation: landscape){
         body{
             overflow-y: auto;
             opacity: 1;
@@ -307,8 +307,16 @@
             margin-left: 20px;
         }
         .navBar {
-            transform:translateX(800px);
+            display: flex;
+            justify-content: space-between;
+            margin-left: 720px;
         }
+
+        .wrapper{
+            margin-left: -100px;
+            margin-bottom: -300px;
+        }
+
         .intro h2 {
             transform: translateX(25px);
             margin-top: 170px;
@@ -327,9 +335,12 @@
             transform: translateX(-130px)
         }
         #svgWaves {
-            transform: translateY(-150px);
-            margin-left: -10%;
-            width: calc(100% + 50%);            
+            width: 100%;
+            height: auto;
+            bottom: 0;
+        }
+        #Contact-Me{
+            display: none;
         }
     }
 

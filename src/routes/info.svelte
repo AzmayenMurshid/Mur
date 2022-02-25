@@ -443,35 +443,49 @@
         }
     }
 
-    @media (min-width: 1000px) and (orientation: landscape) {
+    @media (min-width: 1000px) and (max-width: 1400px) and (orientation: landscape) {
         body{
-            background: var(--bg-secondary);
+            background: #01012b;
             opacity: 1;
             overflow-x: hidden;
         }
         .navBar {
-            transform: translateX(450px)
+            top: 0;
+            transform: translateX(-100px);
         }
+
+        .navBar ul{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-left: 170px;
+        }
+
         .navBar ul li{
             list-style: none;
             display: inline-block;
         }
         .navBar ul li svg {
-            transform: translateX(-1000px);
             width: 50px;
         }
+
+        .about-me-Content p{
+            display: block;
+            width: 55%;
+            transform: translateX(50px);
+        }
+
         .about-me-Content h3 {
-            width: auto;
-            padding-top: 0;
-            transform: translateY(-30px);
-            margin-left: 600px;
+            width: 100%;
+            display: block;
             text-align: center;
+            margin-left: -400px;
         }
         .about-me-Content ul {
-            margin-top: -50px;
+            margin-top: -10px;
         }
         .about-me-Content ul li{
-            transform: translateX(120px);
+            transform: translateX(-70px);
         }
         .titles {
             transform: translateX(60px);
@@ -482,6 +496,12 @@
         .descriptions {
             transform: translateX(-150px);
         }
+
+        .project-Container{
+            width: 250px;
+            height: 400px;
+        }
+
         .project-Container h5 {
             margin-top: 50px;
         }
@@ -502,24 +522,30 @@
             transform: translateX(-1000px);
             width: 50px;
         }
-        .about-me-Content h3, .about-me-Content #BackEnd{
-            margin-left: 50%;
-        }
-        .about-me-Content h3{
-            transform: translateY(-150px);
-        }
-        .about-me-Content #BackEnd {
-            transform: translateY(-150px)
-        }
-        .about-me-Content #FrontEnd {
-            transform: translateY(-150px)
-        }
-        .about-me-Content #Databases {
-            transform: translateY(-150px)
 
+        .about-me-Content p{
+            font-size: 17px;
         }
+
+        .about-me-Content h3 {
+            width: 100%;
+            display: block;
+            text-align: center;
+            margin-left: -700px;
+            font-size: 30px;
+        }
+        .about-me-Content ul {
+            margin-top: -10px;
+            margin-bottom: 100px;
+        }
+        .about-me-Content ul li{
+            transform: translateX(-70px);
+            font-size: 20px;
+        }
+
         #Experiences {
-            margin-top: -10%;
+            margin-top: 50px;
+
         }
         .titles{
             background-color: #01012b;
