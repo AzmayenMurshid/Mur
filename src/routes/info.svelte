@@ -521,6 +521,9 @@
         #Experiences {
             margin-top: -10%;
         }
+        .titles{
+            background-color: #01012b;
+        }
         .titles:hover {
             border-right: 3px solid cyan;
         }
