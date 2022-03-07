@@ -645,7 +645,7 @@
                             <li>Full stack web development</li>
                         </ul>
                         and many more. Some of them are released on 
-                        <a href="https://github.com/AzmayenMurshid" style="color: cyan; text-decoration:none" target="_blank">Github</a>I also had the opportunity to learn about Android app development through <a href="https://developer.android.com/studio" style="color: cyan; text-decoration:none" target="_blank">Android studio</a>, cross-platform app development through <a href="https://flutter.dev/" style="color: cyan; text-decoration:none" target="_blank">Flutter</a>, as well as Java, SQL and MySQL.
+                        <a href="https://github.com/AzmayenMurshid" style="color: cyan; text-decoration:none" target="_blank">Github</a> I also had the opportunity to learn about Android app development through <a href="https://developer.android.com/studio" style="color: cyan; text-decoration:none" target="_blank">Android studio</a>, cross-platform app development through <a href="https://flutter.dev/" style="color: cyan; text-decoration:none" target="_blank">Flutter</a>, as well as Java, SQL and MySQL.
                         Game development was one of the most challenging fields as I worked with <a href="https://www.unrealengine.com/en-US/?sessionInvalidated=true" style="color: cyan; text-decoration:none" target="_blank">Unreal Engine</a>- I am still learning about it to this day. As for full stack development, I have worked with the <a href="https://kit.svelte.dev/" style="color: cyan; text-decoration:none" target="_blank">SvelteKit</a> framework, as well as HTML, CSS, Javascript, TypeScript and Postgres.</td>
                 </tr>
                 <tr>
