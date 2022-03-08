@@ -51,6 +51,11 @@
         transform: translateY(5%);
     }
 
+    #Parent-Wrapper {
+        width: 100%;
+        display: block;
+    }
+
     .wrapper {
         display: inline-flex;
         align-items: center;
@@ -350,11 +355,21 @@
             opacity: 1;
 
         }
-        .navBar{
-            transform: translateX(1100px);
+        #blobSvg{
+            top: 0;
+        }
+        #navigation {
+            width: 100%;
+            display: block;
+        }
+        .navBar > ul{
+            margin-left: 480px;
+        }
+        .navBar > ul > li {
+            padding: none;
         }
         .wrapper {
-            transform: translateX(450px);
+            margin-left: 5px;
         }
         #Contact-Me{
             display: none;
