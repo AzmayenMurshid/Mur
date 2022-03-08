@@ -8,7 +8,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
     body {
-        background-color: #151542;
+        background-color: #01012b;
         opacity: 1;
         overflow-y: auto;
         overflow-x: hidden;
@@ -341,7 +341,7 @@
         }
     }
 
-    @media (max-width: 800px) and (orientation: landscape){
+    @media (max-width: 1100px) and (orientation: landscape){
         body{
             background-color: #01012b;
         }
@@ -443,7 +443,7 @@
         }
     }
 
-    @media (min-width: 1000px) and (max-width: 1400px) and (orientation: landscape) {
+    @media (min-width: 1200px) and (max-width: 1400px) and (orientation: landscape) {
         body{
             background: #01012b;
             opacity: 1;
@@ -488,6 +488,7 @@
             transform: translateX(-70px);
         }
         .titles {
+            background-color: #01012b;
             transform: translateX(60px);
         }
         .titles:hover {
@@ -496,14 +497,17 @@
         .descriptions {
             transform: translateX(-150px);
         }
-
+        #Proj-Con{
+            margin-left: -80px;
+        }
         .project-Container{
-            width: 250px;
-            height: 400px;
+            width: 350px;
+            height: 300px;
         }
 
         .project-Container h5 {
             margin-top: 50px;
+            bottom: 0;
         }
     }
     @media (min-width: 1500px) and (orientation: landscape) {
@@ -665,7 +669,8 @@
         <div class= 'heading'>
             <h2 style = "margin-bottom: 10%">/ projects</h2>
         </div>
-        <div class = "project-Container" style="margin-left: 10%">
+        <div id="Proj-Con">
+            <div class = "project-Container" style="margin-left: 10%">
             <span>
                 <h4>Motion sensor Volume Control</h4>
                 <a href = "https://github.com/AzmayenMurshid/Motion-Sensor-VolumeControl">
@@ -673,52 +678,54 @@
                 <h5>Python</h5>
                 </a>
             </span>
+            </div>
+            <div class="project-Container">
+                <span>
+                <h4>Todo List</h4>
+                <a href = "https://github.com/AzmayenMurshid/full-stack-web-development">
+                <p>A user-friendly app to contain your checklists, todos, and reminders. Consisting of a database to store data.</p>
+                <h5>Svelte, Javascript, TypeScript, HTML, CSS, Prisma, Postgres</h5>
+                </a>
+                </span>
+            </div>
+            <div class="project-Container">
+                <span>
+                <h4>Muricle Game</h4>
+                <a href = "https://github.com/AzmayenMurshid/Muricle-Shooter-Game">
+                <p>A pixelated Retro game inspired by Mario. Contains 3 levels and the player has to fight enemies and go through obstacles to win!</p>
+                <h5>Python</h5>
+                </a>
+                </span>
+            </div>
+            <div class="project-Container" style = "clear: both; margin-left: 10%">
+                <span>
+                <h4>Maze Game</h4>
+                <a href = "https://github.com/AzmayenMurshid/MazeGame">
+                <p>Retro pixelated game inspired by Pacman. Objective is to get to the vortex before the terminators get you! External turtle, math, random and time libraries</p>
+                <h5>Python</h5>
+                </a>
+                </span>
+            </div>
+            <div class="project-Container">
+                <span>
+                <h4>Personal Website</h4>
+                <a href = "https://github.com/AzmayenMurshid/Personal-Website">
+                <p>The code to this very website. Done with the Svelte framework. Consisting of Javascript, HTML and CSS, and deployed through Vercel.</p>
+                <h5>Svelte, Javascript, HTML, CSS</h5>
+                </a>
+                </span>
+            </div>
+            <div class="project-Container">
+                <span>
+                <h4>Ping pong</h4>
+                <a href = "https://github.com/AzmayenMurshid/Ping-Pong">
+                <p>Retro arcade two-player ping pong game created with the turtle and time libraries. Player 1 key bindings are "w" and "s". Player 2 key bindings are "up" and "down". </p>
+                <h5>Python</h5>
+                </a>
+                </span>
+            </div>
         </div>
-        <div class="project-Container">
-            <span>
-            <h4>Todo List</h4>
-            <a href = "https://github.com/AzmayenMurshid/full-stack-web-development">
-            <p>A user-friendly app to contain your checklists, todos, and reminders. Consisting of a database to store data.</p>
-            <h5>Svelte, Javascript, TypeScript, HTML, CSS, Prisma, Postgres</h5>
-            </a>
-            </span>
-        </div>
-        <div class="project-Container">
-            <span>
-            <h4>Muricle Game</h4>
-            <a href = "https://github.com/AzmayenMurshid/Muricle-Shooter-Game">
-            <p>A pixelated Retro game inspired by Mario. Contains 3 levels and the player has to fight enemies and go through obstacles to win!</p>
-            <h5>Python</h5>
-            </a>
-            </span>
-        </div>
-        <div class="project-Container" style = "clear: both; margin-left: 10%">
-            <span>
-            <h4>Maze Game</h4>
-            <a href = "https://github.com/AzmayenMurshid/MazeGame">
-            <p>Retro pixelated game inspired by Pacman. Objective is to get to the vortex before the terminators get you! External turtle, math, random and time libraries</p>
-            <h5>Python</h5>
-            </a>
-            </span>
-        </div>
-        <div class="project-Container">
-            <span>
-            <h4>Personal Website</h4>
-            <a href = "https://github.com/AzmayenMurshid/Personal-Website">
-            <p>The code to this very website. Done with the Svelte framework. Consisting of Javascript, HTML and CSS, and deployed through Vercel.</p>
-            <h5>Svelte, Javascript, HTML, CSS</h5>
-            </a>
-            </span>
-        </div>
-        <div class="project-Container">
-            <span>
-            <h4>Ping pong</h4>
-            <a href = "https://github.com/AzmayenMurshid/Ping-Pong">
-            <p>Retro arcade two-player ping pong game created with the turtle and time libraries. Player 1 key bindings are "w" and "s". Player 2 key bindings are "up" and "down". </p>
-            <h5>Python</h5>
-            </a>
-            </span>
-        </div>
+        
     </div>
 </body>
  
