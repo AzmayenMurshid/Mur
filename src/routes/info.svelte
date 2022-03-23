@@ -8,7 +8,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
     body {
-        background-color: #151542;
+        background-color: #01012b;
         opacity: 1;
         overflow-y: auto;
         overflow-x: hidden;
@@ -348,7 +348,6 @@
         .navBar {
             width: 100%;
             transform: translateX(30px);
-            /* border: 3px solid white; */
         }
 
         nav ul {
@@ -488,6 +487,7 @@
             transform: translateX(-70px);
         }
         .titles {
+            background-color: #01012b;
             transform: translateX(60px);
         }
         .titles:hover {
@@ -498,7 +498,7 @@
         }
 
         .project-Container{
-            width: 250px;
+            width: 350px;
             height: 400px;
         }
 
