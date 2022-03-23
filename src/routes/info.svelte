@@ -478,7 +478,7 @@
             width: 100%;
             display: block;
             text-align: center;
-            margin-left: -400px;
+            margin-left: -500px;
         }
         .about-me-Content ul {
             margin-top: -10px;

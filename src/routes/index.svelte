@@ -294,7 +294,6 @@
         }
     }
 
-
     @media(min-width: 1000px) and (orientation: landscape){
         body{
             overflow-y: auto;
