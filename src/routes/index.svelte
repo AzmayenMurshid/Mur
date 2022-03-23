@@ -332,6 +332,7 @@
             width: 100%;
             height: auto;
             bottom: 0;
+            position: fixed;
         }
         #Contact-Me{
             display: none;
@@ -360,6 +361,7 @@
         }
         #svgWaves{
             width: 100%;
+            height: auto;
             bottom: 0;
             position: fixed;
         }
