@@ -353,7 +353,7 @@
         }
         .wrapper {
             margin-left: 50%;
-            transform: translate(-40%, 0);
+            transform: translate(-65%, 0);
         }
         #Contact-Me{
             display: none;
