@@ -350,20 +350,30 @@
             opacity: 1;
 
         }
-        .navBar{
-            transform: translateX(1100px);
+        #navigation{
+            display: flex;
+            justify-content: space-between;
+        }
+        #navigation > svg {
+            transform: translate(0, -50px);
         }
         .wrapper {
-            transform: translateX(450px);
+            margin-left: 50%;
+            transform: translate(-40%, 0);
         }
         #Contact-Me{
             display: none;
         }
+        #svgWaves{
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+        }
     }
 </style>
-
-<body>
-    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5%"
+<header>
+    <div id="navigation">
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5%"
         id="blobSvg">
         <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -374,8 +384,7 @@
         <path id="blob"
             d="M434.5,336Q422,422,336,437.5Q250,453,181,420.5Q112,388,59,319Q6,250,52,174Q98,98,174,58Q250,18,333.5,50.5Q417,83,432,166.5Q447,250,434.5,336Z"
             fill="url(#gradient)"></path>
-    </svg>
-    <div id="navigation">
+        </svg>
         <img src="https://img.icons8.com/color/48/000000/menu--v3.png" alt="" class="menu-icon"/>
         <nav class= navBar>
             <ul id ="Menu-List">
@@ -397,6 +406,8 @@
             </ul>
         </div>
     </div>
+</header>
+<body>
     <div class="Mobile-Wrapper">
         <h1>I'm a developer</h1>
     </div>
@@ -410,7 +421,8 @@
     <div id="Contact-Me">
         <a href = "mailto: azmayen.murshid@gmail.com" >Contact Me</a>
     </div>
-
+</body>
+<footer>
     <svg width="100%" height="100%" id="svgWaves" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg"
         class="transition duration-300 ease-in-out delay-150">
         <style>
@@ -453,7 +465,4 @@
             stroke="none" stroke-width="0" fill="url(#gradient)"
             class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
     </svg>
-</body>
-<footer>
-
 </footer>
