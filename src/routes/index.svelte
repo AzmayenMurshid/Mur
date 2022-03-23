@@ -306,15 +306,16 @@
             transform: translateY(-25px);
             margin-left: 20px;
         }
-        .navBar {
+        #navigation{
             display: flex;
             justify-content: space-between;
-            margin-left: 720px;
+        }
+        #navigation > svg {
+            transform: translate(0, -50px);
         }
 
         .wrapper{
-            margin-left: -100px;
-            margin-bottom: -300px;
+            transform:translate(280px, 0);
         }
 
         .intro h2 {
@@ -327,12 +328,6 @@
             margin-bottom: 20px;
             padding: 20px;
             transform: translateY(0px);
-        }
-        .wrapper .static-txt {
-            transform: translateX(-140px);
-        }
-        .wrapper .dynamic-txts{
-            transform: translateX(-130px)
         }
         #svgWaves {
             width: 100%;
