@@ -315,7 +315,7 @@
         }
 
         .wrapper{
-            transform:translate(280px, 0);
+            transform:translate(400px, 0);
         }
 
         .intro h2 {
