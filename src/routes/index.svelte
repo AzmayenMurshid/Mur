@@ -131,10 +131,6 @@
         text-align: left;
     }
 
-    #navigation img {
-        display: none;
-    }
-
     nav ul li {
         list-style: none;
         display: inline-block;
@@ -175,14 +171,6 @@
         nav ul li a {
             color: #6B9FED;
             font-size: 17px;
-        }
-        .menu-icon {
-            width: 25px;
-            cursor: pointer;
-            border: 3px solid white;
-            float: left;
-            margin: 10px;
-            margin-top: 20px;
         }
         #blobSvg, #svgWaves, #Parent-Wrapper{
             display: none;
@@ -263,8 +251,7 @@
         }
 
         .wrapper{
-            margin-left: -300px;
-            margin-bottom: -300px;
+            transform: translate(80px, 50px);
         }
         .intro{
             margin-right: 100px;
@@ -286,9 +273,19 @@
 
         #Contact-Me{
             display: none;
+            width: 100%;
+            text-align: center;
+        }
+        #Contact-Me > a {
+            border: 2px solid cyan;
+            border-radius: 10px;
+            padding: 20px;
+            text-decoration: none;
+            color: cyan;
+            margin-bottom: 30px;
         }
         #svgWaves{
-            position: absolute;
+            position: fixed;
             height: auto;
             bottom: 0;
         }
@@ -309,8 +306,9 @@
             display: flex;
             justify-content: space-between;
         }
-        #navigation > svg {
-            transform: translate(0, -50px);
+        #navigation > a > svg {
+            transform: translate(0, 10px);
+            width: 70px;
         }
 
         .wrapper{
@@ -336,6 +334,18 @@
         }
         #Contact-Me{
             display: none;
+            width: 100%;
+            text-align: center;
+            margin-top: 40px;
+            cursor: pointer
+        }
+        #Contact-Me > a {
+            border: 2px solid cyan;
+            border-radius: 10px;
+            padding: 20px;
+            text-decoration: none;
+            color: cyan;
+            margin-bottom: 30px;
         }
     }
 
@@ -349,15 +359,25 @@
             display: flex;
             justify-content: space-between;
         }
-        #navigation > svg {
+        /* #navigation > a > svg {
             transform: translate(0, -50px);
-        }
+        } */
         .wrapper {
             margin-left: 50%;
             transform: translate(-65%, 0);
         }
         #Contact-Me{
             display: none;
+            width: 100%;
+            text-align: center;
+        }
+        #Contact-Me > a{
+            border: 2px solid cyan;
+            border-radius: 10px;
+            padding: 20px;
+            text-decoration: none;
+            color: cyan;
+            margin-bottom: 30px;
         }
         #svgWaves{
             width: 100%;
@@ -369,19 +389,21 @@
 </style>
 <header>
     <div id="navigation">
-        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5%"
-        id="blobSvg">
-        <defs>
-            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" style="stop-color: rgb(76, 161, 175);"></stop>
-                <stop offset="100%" style="stop-color: rgb(196, 224, 229);"></stop>
-            </linearGradient>
-        </defs>
-        <path id="blob"
-            d="M434.5,336Q422,422,336,437.5Q250,453,181,420.5Q112,388,59,319Q6,250,52,174Q98,98,174,58Q250,18,333.5,50.5Q417,83,432,166.5Q447,250,434.5,336Z"
-            fill="url(#gradient)"></path>
-        </svg>
-        <img src="https://img.icons8.com/color/48/000000/menu--v3.png" alt="" class="menu-icon"/>
+        <a href = "mailto: azmayen.murshid@gmail.com" title="Contact Me" >
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5%"
+                    id="blobSvg">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(76, 161, 175);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(196, 224, 229);"></stop>
+                    </linearGradient>
+                </defs>
+                <path id="blob"
+                    d="M434.5,336Q422,422,336,437.5Q250,453,181,420.5Q112,388,59,319Q6,250,52,174Q98,98,174,58Q250,18,333.5,50.5Q417,83,432,166.5Q447,250,434.5,336Z"
+                    fill="url(#gradient)"></path>
+            </svg>
+        </a>
+        
         <nav class= navBar>
             <ul id ="Menu-List">
                 <li><a href="/info#About-me">about me</a></li>
