@@ -432,7 +432,7 @@
 
     <div class='intro'>
         <h2>I create stuff sometimes</h2>
-        <p>I am a high school student based in Sunway, Malaysia with a passion for Full-Stack development,
+        <p>I am a high school student based in Lubbock, Texas with a passion for Full-Stack development,
             Machine Learning, Ai-Human interactions, and everything in between.</p>
     </div>
 
