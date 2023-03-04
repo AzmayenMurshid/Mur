@@ -589,7 +589,7 @@
             <img src="https://media3.giphy.com/media/l0IpXgEBZ3y3UEljO/giphy.gif?cid=790b76116e6fe86933e15c420b871ae23b6b8ee88565ca36&rid=giphy.gif&ct=s" alt="" width="30%" height="20%">
         </span>
         <span class="about-me-Content animatedTexts">
-            <p>I am currently in High School at Sunway International School. Regardless of my academic background,
+            <p>I am currently in Lubbock High School. Regardless of my academic background,
                 I have been able to build numerous personal projects,
                 including a motion-sensor volume control, todo lists, arcade games and other types of web development.
                 Last semester, I excelled at Computer Science with an average of 94%. I am grateful to be mentored by a UC Berkeley graduate, Saif Nizam.
